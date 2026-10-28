@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# Large archives
+*.zip
+*.tar
+*.gz
+*.rar
+archive.zip
+
+# Large data folders (textbooks and raw datasets)
+data/
+data_clean/
+
+# Processed data artifacts (large intermediate files)
+processed_data/textbook_chunks.json
+processed_data/textbook_chunks.parquet
+processed_data/*.parquet
+
+# FAISS vector store & embedding checkpoints (>50MB)
+vector_store/textbook_faiss.index
+vector_store/textbook_embeddings_checkpoint.npy
+vector_store/*.npy
+vector_store/*.index
+vector_store/*.parquet
+
+# Virtual environments
+venv/
+env/
+.venv/

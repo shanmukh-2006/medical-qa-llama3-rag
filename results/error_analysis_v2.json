@@ -1,0 +1,36 @@
+{
+  "configuration": "rag_v2",
+  "results_file": "C:\\Users\\shanm\\OneDrive\\Desktop\\Medical Question Answering\\results\\rag_v2_test.jsonl",
+  "total_questions": 300,
+  "total_correct": 156,
+  "accuracy_percent": 52.0,
+  "total_errors": 144,
+  "bucket_counts": {
+    "Parse failure": 0,
+    "Retrieval miss": 49,
+    "Model ignored context": 95,
+    "Other": 0
+  },
+  "bucket_percentages_of_errors": {
+    "Parse failure": 0.0,
+    "Retrieval miss": 34.03,
+    "Model ignored context": 65.97,
+    "Other": 0.0
+  },
+  "baseline_comparison_v1": {
+    "rag_v1_accuracy_percent": 42.67,
+    "rag_v1_unparsed_percent": 20.33,
+    "baseline_accuracy_percent": 48.67,
+    "baseline_unparsed_percent": 0.67,
+    "rag_v1_vs_baseline_diff_pp": -6.0,
+    "contingency_2x2": {
+      "both_correct": 95,
+      "only_rag_correct": 33,
+      "only_baseline_correct": 51,
+      "both_wrong": 121
+    }
+  },
+  "sample_seed": 42,
+  "num_sampled_error_examples": 10,
+  "error_examples_file": "C:\\Users\\shanm\\OneDrive\\Desktop\\Medical Question Answering\\results\\error_examples_v2.md"
+}

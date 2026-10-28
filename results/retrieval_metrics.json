@@ -1,0 +1,4478 @@
+{
+  "description": "Keyword-matching proxy. 'Relevant' = chunk contains key terms from correct answer text (lowercased, punctuation removed, stopwords excluded). NOT human relevance judgment.",
+  "num_questions": 300,
+  "averages": {
+    "hit@1": 0.39,
+    "precision@1": 0.39,
+    "hit@3": 0.5933,
+    "precision@3": 0.3889,
+    "hit@5": 0.71,
+    "precision@5": 0.394
+  },
+  "per_question": [
+    {
+      "question_id": "medqa_test_43",
+      "correct_answer_text": "Coronary sinus",
+      "key_terms": [
+        "coronary",
+        "sinus"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1160",
+      "correct_answer_text": "Psoriatic arthritis",
+      "key_terms": [
+        "psoriatic",
+        "arthritis"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_128",
+      "correct_answer_text": "Intrafascicular infiltration on muscle biopsy",
+      "key_terms": [
+        "intrafascicular",
+        "infiltration",
+        "muscle",
+        "biopsy"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_1232",
+      "correct_answer_text": "A type 1 error occurs when the null hypothesis is true but is rejected in error.",
+      "key_terms": [
+        "error",
+        "occurs",
+        "null",
+        "hypothesis",
+        "true",
+        "rejected",
+        "error"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1193",
+      "correct_answer_text": "Trimethoprim, sulfamethoxazole, azithromycin",
+      "key_terms": [
+        "trimethoprim",
+        "sulfamethoxazole",
+        "azithromycin"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_693",
+      "correct_answer_text": "Isosorbide dinitrate",
+      "key_terms": [
+        "isosorbide",
+        "dinitrate"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1132",
+      "correct_answer_text": "Dilation of the intracerebral arterioles",
+      "key_terms": [
+        "dilation",
+        "intracerebral",
+        "arterioles"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_859",
+      "correct_answer_text": "Decreased pulmonary capillary wedge pressure",
+      "key_terms": [
+        "decreased",
+        "pulmonary",
+        "capillary",
+        "wedge",
+        "pressure"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_534",
+      "correct_answer_text": "S3 gallop",
+      "key_terms": [
+        "s3",
+        "gallop"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_778",
+      "correct_answer_text": "He may work longer shifts",
+      "key_terms": [
+        "he",
+        "work",
+        "longer",
+        "shifts"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_367",
+      "correct_answer_text": "Recommend additional serologic testing for parvovirus B19",
+      "key_terms": [
+        "recommend",
+        "additional",
+        "serologic",
+        "testing",
+        "parvovirus",
+        "b19"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_361",
+      "correct_answer_text": "Methimazole and propranolol therapy",
+      "key_terms": [
+        "methimazole",
+        "propranolol",
+        "therapy"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_721",
+      "correct_answer_text": "Interventricular foramen",
+      "key_terms": [
+        "interventricular",
+        "foramen"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_873",
+      "correct_answer_text": "Administer hepatitis B vaccine and HBIG",
+      "key_terms": [
+        "administer",
+        "hepatitis",
+        "vaccine",
+        "hbig"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_636",
+      "correct_answer_text": "Indomethacin",
+      "key_terms": [
+        "indomethacin"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_123",
+      "correct_answer_text": "Mixing study",
+      "key_terms": [
+        "mixing",
+        "study"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_328",
+      "correct_answer_text": "Sympathetic block",
+      "key_terms": [
+        "sympathetic",
+        "block"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_461",
+      "correct_answer_text": "Nocturnal penile tumescence testing",
+      "key_terms": [
+        "nocturnal",
+        "penile",
+        "tumescence",
+        "testing"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_247",
+      "correct_answer_text": "Azithromycin and ethambutol",
+      "key_terms": [
+        "azithromycin",
+        "ethambutol"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_974",
+      "correct_answer_text": "Relapse",
+      "key_terms": [
+        "relapse"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_409",
+      "correct_answer_text": "Parietal cells",
+      "key_terms": [
+        "parietal",
+        "cells"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_51",
+      "correct_answer_text": "Aldosterone excess",
+      "key_terms": [
+        "aldosterone",
+        "excess"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_155",
+      "correct_answer_text": "Synthetic cathinone intoxication",
+      "key_terms": [
+        "synthetic",
+        "cathinone",
+        "intoxication"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1248",
+      "correct_answer_text": "Prednisone",
+      "key_terms": [
+        "prednisone"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_231",
+      "correct_answer_text": "Staphylococcus epidermidis",
+      "key_terms": [
+        "staphylococcus",
+        "epidermidis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1189",
+      "correct_answer_text": "Posttraumatic stress disorder",
+      "key_terms": [
+        "posttraumatic",
+        "stress",
+        "disorder"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_210",
+      "correct_answer_text": "Initiation of S phase",
+      "key_terms": [
+        "initiation",
+        "phase"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_63",
+      "correct_answer_text": "Insert a ‘straight cath’ into the patient’s bladder",
+      "key_terms": [
+        "insert",
+        "‘straight",
+        "cath’",
+        "patient’s",
+        "bladder"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_1045",
+      "correct_answer_text": "Left middle cerebral",
+      "key_terms": [
+        "left",
+        "middle",
+        "cerebral"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_715",
+      "correct_answer_text": "They occur only during non-REM sleep",
+      "key_terms": [
+        "occur",
+        "only",
+        "nonrem",
+        "sleep"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_23",
+      "correct_answer_text": "Staphylococcus aureus",
+      "key_terms": [
+        "staphylococcus",
+        "aureus"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_265",
+      "correct_answer_text": "Lower lobe cavitary mass",
+      "key_terms": [
+        "lower",
+        "lobe",
+        "cavitary",
+        "mass"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_1265",
+      "correct_answer_text": "Delirium",
+      "key_terms": [
+        "delirium"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_76",
+      "correct_answer_text": "Biopsy of the mass",
+      "key_terms": [
+        "biopsy",
+        "mass"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_996",
+      "correct_answer_text": "Inhibiting bacterial adherance and colonization of mucous membranes",
+      "key_terms": [
+        "inhibiting",
+        "bacterial",
+        "adherance",
+        "colonization",
+        "mucous",
+        "membranes"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_192",
+      "correct_answer_text": "Effect modification",
+      "key_terms": [
+        "effect",
+        "modification"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_209",
+      "correct_answer_text": "Squamous cell carcinoma",
+      "key_terms": [
+        "squamous",
+        "cell",
+        "carcinoma"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_332",
+      "correct_answer_text": "Inhibition of P-glycoprotein",
+      "key_terms": [
+        "inhibition",
+        "pglycoprotein"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_618",
+      "correct_answer_text": "Diazepam",
+      "key_terms": [
+        "diazepam"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1124",
+      "correct_answer_text": "Flagellated protozoa",
+      "key_terms": [
+        "flagellated",
+        "protozoa"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_101",
+      "correct_answer_text": "Amantadine",
+      "key_terms": [
+        "amantadine"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_585",
+      "correct_answer_text": "Cardiac tamponade",
+      "key_terms": [
+        "cardiac",
+        "tamponade"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_425",
+      "correct_answer_text": "Refuse the procedure because it violates the ethical principle of autonomy",
+      "key_terms": [
+        "refuse",
+        "procedure",
+        "because",
+        "violates",
+        "ethical",
+        "principle",
+        "autonomy"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_1133",
+      "correct_answer_text": "Tetanus, diphtheria, and acellular pertussis booster (Tdap) vaccine",
+      "key_terms": [
+        "tetanus",
+        "diphtheria",
+        "acellular",
+        "pertussis",
+        "booster",
+        "tdap",
+        "vaccine"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_1164",
+      "correct_answer_text": "Angiotensin-converting-enzyme inhibitor (ACEI)",
+      "key_terms": [
+        "angiotensinconvertingenzyme",
+        "inhibitor",
+        "acei"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_893",
+      "correct_answer_text": "Amoxicillin-clavulanate",
+      "key_terms": [
+        "amoxicillinclavulanate"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_519",
+      "correct_answer_text": "Exploratory laparotomy",
+      "key_terms": [
+        "exploratory",
+        "laparotomy"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1070",
+      "correct_answer_text": "Zenker's diverticulum",
+      "key_terms": [
+        "zenkers",
+        "diverticulum"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_1022",
+      "correct_answer_text": "Oral morphine therapy",
+      "key_terms": [
+        "oral",
+        "morphine",
+        "therapy"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_168",
+      "correct_answer_text": "Undergo upper GI endoscopy",
+      "key_terms": [
+        "undergo",
+        "upper",
+        "gi",
+        "endoscopy"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_435",
+      "correct_answer_text": "Atropine and pralidoxime",
+      "key_terms": [
+        "atropine",
+        "pralidoxime"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1149",
+      "correct_answer_text": "Reassurance and follow-up",
+      "key_terms": [
+        "reassurance",
+        "followup"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_282",
+      "correct_answer_text": "Schizoid personality disorder",
+      "key_terms": [
+        "schizoid",
+        "personality",
+        "disorder"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_941",
+      "correct_answer_text": "Pancreatic adenocarcinoma",
+      "key_terms": [
+        "pancreatic",
+        "adenocarcinoma"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1233",
+      "correct_answer_text": "Myocardial infarction",
+      "key_terms": [
+        "myocardial",
+        "infarction"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_643",
+      "correct_answer_text": "Ask the son to step out so you can speak with the patient alone",
+      "key_terms": [
+        "ask",
+        "son",
+        "step",
+        "you",
+        "speak",
+        "patient",
+        "alone"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_885",
+      "correct_answer_text": "Medication reaction",
+      "key_terms": [
+        "medication",
+        "reaction"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_1234",
+      "correct_answer_text": "Incision and drainage",
+      "key_terms": [
+        "incision",
+        "drainage"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_413",
+      "correct_answer_text": "0.9% saline IV",
+      "key_terms": [
+        "09",
+        "saline",
+        "iv"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_196",
+      "correct_answer_text": "Warfarin",
+      "key_terms": [
+        "warfarin"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_438",
+      "correct_answer_text": "Na+/Cl- cotransporter in the membranes of epithelial cells in the distal convoluted tubule",
+      "key_terms": [
+        "nacl",
+        "cotransporter",
+        "membranes",
+        "epithelial",
+        "cells",
+        "distal",
+        "convoluted",
+        "tubule"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_660",
+      "correct_answer_text": "Generalized anxiety disorder",
+      "key_terms": [
+        "generalized",
+        "anxiety",
+        "disorder"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_1260",
+      "correct_answer_text": "Direct activation of dopamine receptors",
+      "key_terms": [
+        "direct",
+        "activation",
+        "dopamine",
+        "receptors"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_695",
+      "correct_answer_text": "Osmotic diuresis",
+      "key_terms": [
+        "osmotic",
+        "diuresis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_892",
+      "correct_answer_text": "Increased renal tubular sodium reabsorption",
+      "key_terms": [
+        "increased",
+        "renal",
+        "tubular",
+        "sodium",
+        "reabsorption"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_220",
+      "correct_answer_text": "Decreased FEV1 and FVC with normal FEV1/FVC ratio",
+      "key_terms": [
+        "decreased",
+        "fev1",
+        "fvc",
+        "normal",
+        "fev1fvc",
+        "ratio"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_889",
+      "correct_answer_text": "Gp Ib",
+      "key_terms": [
+        "gp",
+        "ib"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_528",
+      "correct_answer_text": "Streptomycin",
+      "key_terms": [
+        "streptomycin"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_478",
+      "correct_answer_text": "Shellfish",
+      "key_terms": [
+        "shellfish"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_620",
+      "correct_answer_text": "Triamterene",
+      "key_terms": [
+        "triamterene"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_270",
+      "correct_answer_text": "Oligoclonal IgG bands on electrophoresis",
+      "key_terms": [
+        "oligoclonal",
+        "igg",
+        "bands",
+        "electrophoresis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_261",
+      "correct_answer_text": "Staphylococcus aureus",
+      "key_terms": [
+        "staphylococcus",
+        "aureus"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_81",
+      "correct_answer_text": "Caspase-9",
+      "key_terms": [
+        "caspase9"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1135",
+      "correct_answer_text": "Increased breakdown of intracellular RNA",
+      "key_terms": [
+        "increased",
+        "breakdown",
+        "intracellular",
+        "rna"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_78",
+      "correct_answer_text": "Transposition of great vessels",
+      "key_terms": [
+        "transposition",
+        "great",
+        "vessels"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_599",
+      "correct_answer_text": "Alcohol use disorder",
+      "key_terms": [
+        "alcohol",
+        "disorder"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_551",
+      "correct_answer_text": "Decreased glucose uptake by adipocytes",
+      "key_terms": [
+        "decreased",
+        "glucose",
+        "uptake",
+        "adipocytes"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_58",
+      "correct_answer_text": "Hemolytic uremic syndrome",
+      "key_terms": [
+        "hemolytic",
+        "uremic",
+        "syndrome"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_1108",
+      "correct_answer_text": "He will have pain with inversion and eversion of his foot.",
+      "key_terms": [
+        "he",
+        "pain",
+        "inversion",
+        "eversion",
+        "his",
+        "foot"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_464",
+      "correct_answer_text": "Borderline personality disorder",
+      "key_terms": [
+        "borderline",
+        "personality",
+        "disorder"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_700",
+      "correct_answer_text": "International normalized ratio",
+      "key_terms": [
+        "international",
+        "normalized",
+        "ratio"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_1247",
+      "correct_answer_text": "480 mL",
+      "key_terms": [
+        "480",
+        "ml"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_423",
+      "correct_answer_text": "Protein deposition",
+      "key_terms": [
+        "protein",
+        "deposition"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_49",
+      "correct_answer_text": "Proliferation of surfactant-secreting cells",
+      "key_terms": [
+        "proliferation",
+        "surfactantsecreting",
+        "cells"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_289",
+      "correct_answer_text": "Small blue cells arranged in rosettes around a central neuropil",
+      "key_terms": [
+        "small",
+        "blue",
+        "cells",
+        "arranged",
+        "rosettes",
+        "around",
+        "central",
+        "neuropil"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_1161",
+      "correct_answer_text": "Required for dehydrogenase enzymes",
+      "key_terms": [
+        "required",
+        "dehydrogenase",
+        "enzymes"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_809",
+      "correct_answer_text": "WBC/mm3 53,000; % PMN > 75%; Viscosity low",
+      "key_terms": [
+        "wbcmm3",
+        "53000",
+        "pmn",
+        "75",
+        "viscosity",
+        "low"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_462",
+      "correct_answer_text": "Amoxicillin-clavulanic acid",
+      "key_terms": [
+        "amoxicillinclavulanic",
+        "acid"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_439",
+      "correct_answer_text": "Itraconazole",
+      "key_terms": [
+        "itraconazole"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_355",
+      "correct_answer_text": "HIV, syphilis, and hepatitis B",
+      "key_terms": [
+        "hiv",
+        "syphilis",
+        "hepatitis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_428",
+      "correct_answer_text": "Oral acyclovir",
+      "key_terms": [
+        "oral",
+        "acyclovir"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_422",
+      "correct_answer_text": "Increased alveolar dead space due to absent perfusion of certain alveoli",
+      "key_terms": [
+        "increased",
+        "alveolar",
+        "dead",
+        "space",
+        "absent",
+        "perfusion",
+        "certain",
+        "alveoli"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_374",
+      "correct_answer_text": "Valley fever",
+      "key_terms": [
+        "valley",
+        "fever"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1084",
+      "correct_answer_text": "Passage of a catheter through the nasal cavity not possible",
+      "key_terms": [
+        "passage",
+        "catheter",
+        "nasal",
+        "cavity",
+        "possible"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_667",
+      "correct_answer_text": "Emergent fasciotomy",
+      "key_terms": [
+        "emergent",
+        "fasciotomy"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_666",
+      "correct_answer_text": "Imbalance of fluid secretion and resorption by tunica vaginalis",
+      "key_terms": [
+        "imbalance",
+        "fluid",
+        "secretion",
+        "resorption",
+        "tunica",
+        "vaginalis"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_1037",
+      "correct_answer_text": "Decreased production of PGE2",
+      "key_terms": [
+        "decreased",
+        "production",
+        "pge2"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_1183",
+      "correct_answer_text": "Hyperbaric oxygen therapy",
+      "key_terms": [
+        "hyperbaric",
+        "oxygen",
+        "therapy"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_714",
+      "correct_answer_text": "Late systolic crescendo murmur at the apex with mid-systolic click",
+      "key_terms": [
+        "late",
+        "systolic",
+        "crescendo",
+        "murmur",
+        "apex",
+        "midsystolic",
+        "click"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_208",
+      "correct_answer_text": "Inhibits viral assembly",
+      "key_terms": [
+        "inhibits",
+        "viral",
+        "assembly"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_240",
+      "correct_answer_text": "Neuron-specific enolase",
+      "key_terms": [
+        "neuronspecific",
+        "enolase"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_999",
+      "correct_answer_text": "Slit-lamp examination",
+      "key_terms": [
+        "slitlamp",
+        "examination"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_243",
+      "correct_answer_text": "Restart rosuvastatin at a lower dose",
+      "key_terms": [
+        "restart",
+        "rosuvastatin",
+        "lower",
+        "dose"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_602",
+      "correct_answer_text": "Rifampin alters normal gastrointestinal flora, which leads to a decrease in the enterohepatic circulation of estrogens.",
+      "key_terms": [
+        "rifampin",
+        "alters",
+        "normal",
+        "gastrointestinal",
+        "flora",
+        "leads",
+        "decrease",
+        "enterohepatic",
+        "circulation",
+        "estrogens"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_983",
+      "correct_answer_text": "Nadolol",
+      "key_terms": [
+        "nadolol"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1061",
+      "correct_answer_text": "Propranolol",
+      "key_terms": [
+        "propranolol"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_984",
+      "correct_answer_text": "2-pralidoxime",
+      "key_terms": [
+        "2pralidoxime"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_765",
+      "correct_answer_text": "Muscarinic antagonist",
+      "key_terms": [
+        "muscarinic",
+        "antagonist"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_174",
+      "correct_answer_text": "Lead-time bias",
+      "key_terms": [
+        "leadtime",
+        "bias"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_814",
+      "correct_answer_text": "Orchiopexy",
+      "key_terms": [
+        "orchiopexy"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_994",
+      "correct_answer_text": "Disulfide bond cleavage",
+      "key_terms": [
+        "disulfide",
+        "bond",
+        "cleavage"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_967",
+      "correct_answer_text": "Thumb spica cast and repeat x-rays in 2 weeks",
+      "key_terms": [
+        "thumb",
+        "spica",
+        "cast",
+        "repeat",
+        "xrays",
+        "weeks"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_44",
+      "correct_answer_text": "Globular 10-week sized uterus",
+      "key_terms": [
+        "globular",
+        "10week",
+        "sized",
+        "uterus"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1211",
+      "correct_answer_text": "Hypercellular areas of spindle cells and hypocellular areas of myxoid stroma",
+      "key_terms": [
+        "hypercellular",
+        "areas",
+        "spindle",
+        "cells",
+        "hypocellular",
+        "areas",
+        "myxoid",
+        "stroma"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_477",
+      "correct_answer_text": "Elbow flexion",
+      "key_terms": [
+        "elbow",
+        "flexion"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_29",
+      "correct_answer_text": "Reassurance",
+      "key_terms": [
+        "reassurance"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_31",
+      "correct_answer_text": "Increased ventricular wall stiffness",
+      "key_terms": [
+        "increased",
+        "ventricular",
+        "wall",
+        "stiffness"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_1157",
+      "correct_answer_text": "Granulocyte-macrophage colony-stimulating factor",
+      "key_terms": [
+        "granulocytemacrophage",
+        "colonystimulating",
+        "factor"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_382",
+      "correct_answer_text": "Bupropion",
+      "key_terms": [
+        "bupropion"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_907",
+      "correct_answer_text": "Myocardial perfusion scan under pharmacological stress",
+      "key_terms": [
+        "myocardial",
+        "perfusion",
+        "scan",
+        "pharmacological",
+        "stress"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_583",
+      "correct_answer_text": "Wilson disease",
+      "key_terms": [
+        "wilson",
+        "disease"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_86",
+      "correct_answer_text": "Laparoscopy",
+      "key_terms": [
+        "laparoscopy"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1091",
+      "correct_answer_text": "Sacubitril",
+      "key_terms": [
+        "sacubitril"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_308",
+      "correct_answer_text": "Increased glomerular filtration rate, restricted aldosterone release, vascular smooth muscle dilation",
+      "key_terms": [
+        "increased",
+        "glomerular",
+        "filtration",
+        "rate",
+        "restricted",
+        "aldosterone",
+        "release",
+        "vascular",
+        "smooth",
+        "muscle",
+        "dilation"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_756",
+      "correct_answer_text": "Cyclophosphamide",
+      "key_terms": [
+        "cyclophosphamide"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_704",
+      "correct_answer_text": "Continue normal breast feeding",
+      "key_terms": [
+        "continue",
+        "normal",
+        "breast",
+        "feeding"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_70",
+      "correct_answer_text": "Spontaneous bacterial peritonitis",
+      "key_terms": [
+        "spontaneous",
+        "bacterial",
+        "peritonitis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_1259",
+      "correct_answer_text": "Apply a simple shoulder sling",
+      "key_terms": [
+        "apply",
+        "simple",
+        "shoulder",
+        "sling"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_411",
+      "correct_answer_text": "Celiac disease",
+      "key_terms": [
+        "celiac",
+        "disease"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_358",
+      "correct_answer_text": "Moderate flexion then hyperpronation",
+      "key_terms": [
+        "moderate",
+        "flexion",
+        "hyperpronation"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_244",
+      "correct_answer_text": "Larynx",
+      "key_terms": [
+        "larynx"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_952",
+      "correct_answer_text": "Avoiding all dairy products",
+      "key_terms": [
+        "avoiding",
+        "dairy",
+        "products"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_578",
+      "correct_answer_text": "Fluoxetine",
+      "key_terms": [
+        "fluoxetine"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_535",
+      "correct_answer_text": "It reflects a smaller sample size",
+      "key_terms": [
+        "reflects",
+        "smaller",
+        "sample",
+        "size"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1140",
+      "correct_answer_text": "Hypoparathyroidism",
+      "key_terms": [
+        "hypoparathyroidism"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1175",
+      "correct_answer_text": "Anti-cyclic citrullinated peptide (anti-CCP) antibody",
+      "key_terms": [
+        "anticyclic",
+        "citrullinated",
+        "peptide",
+        "anticcp",
+        "antibody"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_113",
+      "correct_answer_text": "JAK/STAT",
+      "key_terms": [
+        "jakstat"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_497",
+      "correct_answer_text": "Sensory loss",
+      "key_terms": [
+        "sensory",
+        "loss"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_1026",
+      "correct_answer_text": "Leaden paralysis",
+      "key_terms": [
+        "leaden",
+        "paralysis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1263",
+      "correct_answer_text": "Ventricular shunting",
+      "key_terms": [
+        "ventricular",
+        "shunting"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_309",
+      "correct_answer_text": "Informed consent is not needed in this case",
+      "key_terms": [
+        "informed",
+        "consent",
+        "needed",
+        "case"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_107",
+      "correct_answer_text": "Primary spermatocyte",
+      "key_terms": [
+        "primary",
+        "spermatocyte"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_985",
+      "correct_answer_text": "Chronic lymphocytic leukemia (CLL)",
+      "key_terms": [
+        "chronic",
+        "lymphocytic",
+        "leukemia",
+        "cll"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_1015",
+      "correct_answer_text": "Tetralogy of Fallot",
+      "key_terms": [
+        "tetralogy",
+        "fallot"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_926",
+      "correct_answer_text": "CT angiography of the chest and give oxygen",
+      "key_terms": [
+        "ct",
+        "angiography",
+        "chest",
+        "give",
+        "oxygen"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_1172",
+      "correct_answer_text": "Reassurance",
+      "key_terms": [
+        "reassurance"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_218",
+      "correct_answer_text": "Dermis",
+      "key_terms": [
+        "dermis"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_514",
+      "correct_answer_text": "Anaphylactic transfusion reactions",
+      "key_terms": [
+        "anaphylactic",
+        "transfusion",
+        "reactions"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_346",
+      "correct_answer_text": "Reaction formation",
+      "key_terms": [
+        "reaction",
+        "formation"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_665",
+      "correct_answer_text": "Flexor pollicis longus tendon",
+      "key_terms": [
+        "flexor",
+        "pollicis",
+        "longus",
+        "tendon"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_708",
+      "correct_answer_text": "Absence of UDP-glucuronosyltransferase-1A1",
+      "key_terms": [
+        "absence",
+        "udpglucuronosyltransferase1a1"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1208",
+      "correct_answer_text": "A 9-month-old boy who has had recurrent otitis media and pneumococcal pneumonia in the past three months",
+      "key_terms": [
+        "9monthold",
+        "boy",
+        "recurrent",
+        "otitis",
+        "media",
+        "pneumococcal",
+        "pneumonia",
+        "past",
+        "months"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_294",
+      "correct_answer_text": "Metaplasia",
+      "key_terms": [
+        "metaplasia"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1158",
+      "correct_answer_text": "ANA and anti-dsDNA levels",
+      "key_terms": [
+        "ana",
+        "antidsdna",
+        "levels"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_286",
+      "correct_answer_text": "Polymerase chain reaction",
+      "key_terms": [
+        "polymerase",
+        "chain",
+        "reaction"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_1117",
+      "correct_answer_text": "Papilledema",
+      "key_terms": [
+        "papilledema"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1239",
+      "correct_answer_text": "Epstein barr virus (EBV)",
+      "key_terms": [
+        "epstein",
+        "barr",
+        "virus",
+        "ebv"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_755",
+      "correct_answer_text": "V/Q scan",
+      "key_terms": [
+        "vq",
+        "scan"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1271",
+      "correct_answer_text": "Schizotypal personality disorder",
+      "key_terms": [
+        "schizotypal",
+        "personality",
+        "disorder"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_560",
+      "correct_answer_text": "Dietary changes",
+      "key_terms": [
+        "dietary",
+        "changes"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_54",
+      "correct_answer_text": "Tardive dyskinesia",
+      "key_terms": [
+        "tardive",
+        "dyskinesia"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_303",
+      "correct_answer_text": "Vaginal septum",
+      "key_terms": [
+        "vaginal",
+        "septum"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_339",
+      "correct_answer_text": "Desensitization",
+      "key_terms": [
+        "desensitization"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_56",
+      "correct_answer_text": "Gynecomastia",
+      "key_terms": [
+        "gynecomastia"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_858",
+      "correct_answer_text": "Papillary carcinoma",
+      "key_terms": [
+        "papillary",
+        "carcinoma"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_109",
+      "correct_answer_text": "Stool leukocytes",
+      "key_terms": [
+        "stool",
+        "leukocytes"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_1049",
+      "correct_answer_text": "Transformation",
+      "key_terms": [
+        "transformation"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_676",
+      "correct_answer_text": "Platelet activating factor",
+      "key_terms": [
+        "platelet",
+        "activating",
+        "factor"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_626",
+      "correct_answer_text": "Elevated serum creatine kinase",
+      "key_terms": [
+        "elevated",
+        "serum",
+        "creatine",
+        "kinase"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_198",
+      "correct_answer_text": "Prostate cancer",
+      "key_terms": [
+        "prostate",
+        "cancer"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_415",
+      "correct_answer_text": "If the sensitivity of this screening test were decreased, the statistical power would decrease.",
+      "key_terms": [
+        "sensitivity",
+        "screening",
+        "test",
+        "decreased",
+        "statistical",
+        "power",
+        "decrease"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_506",
+      "correct_answer_text": "Hallucinations",
+      "key_terms": [
+        "hallucinations"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1062",
+      "correct_answer_text": "Constriction of afferent arteriole and no effect on efferent arteriole",
+      "key_terms": [
+        "constriction",
+        "afferent",
+        "arteriole",
+        "effect",
+        "efferent",
+        "arteriole"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_605",
+      "correct_answer_text": "Marijuana",
+      "key_terms": [
+        "marijuana"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_932",
+      "correct_answer_text": "No further work-up needed",
+      "key_terms": [
+        "further",
+        "workup",
+        "needed"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_977",
+      "correct_answer_text": "Seborrheic keratosis",
+      "key_terms": [
+        "seborrheic",
+        "keratosis"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_1142",
+      "correct_answer_text": "N-acetylcysteine",
+      "key_terms": [
+        "nacetylcysteine"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_296",
+      "correct_answer_text": "Brown-black color in one area of the lesion to red-white in a different area",
+      "key_terms": [
+        "brownblack",
+        "color",
+        "area",
+        "lesion",
+        "redwhite",
+        "different",
+        "area"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_485",
+      "correct_answer_text": "Omeprazole",
+      "key_terms": [
+        "omeprazole"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_442",
+      "correct_answer_text": "Projection",
+      "key_terms": [
+        "projection"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_479",
+      "correct_answer_text": "Arterial emboli",
+      "key_terms": [
+        "arterial",
+        "emboli"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_946",
+      "correct_answer_text": "Cerebellar degeneration",
+      "key_terms": [
+        "cerebellar",
+        "degeneration"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_553",
+      "correct_answer_text": "Eplerenone",
+      "key_terms": [
+        "eplerenone"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_554",
+      "correct_answer_text": "1 month of associated symptoms ",
+      "key_terms": [
+        "month",
+        "associated",
+        "symptoms"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_1269",
+      "correct_answer_text": "Medication abuse",
+      "key_terms": [
+        "medication",
+        "abuse"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_886",
+      "correct_answer_text": "Neisseria gonorrhoeae and Chlamydia trachomatis screening",
+      "key_terms": [
+        "neisseria",
+        "gonorrhoeae",
+        "chlamydia",
+        "trachomatis",
+        "screening"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_333",
+      "correct_answer_text": "Intubation and mechanical ventilation",
+      "key_terms": [
+        "intubation",
+        "mechanical",
+        "ventilation"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_221",
+      "correct_answer_text": "Administer zidovudine",
+      "key_terms": [
+        "administer",
+        "zidovudine"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_825",
+      "correct_answer_text": "This mass will most likely decrease in size or disappear over time",
+      "key_terms": [
+        "mass",
+        "likely",
+        "decrease",
+        "size",
+        "disappear",
+        "time"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_170",
+      "correct_answer_text": "Miosis",
+      "key_terms": [
+        "miosis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1179",
+      "correct_answer_text": "Syringomyelia",
+      "key_terms": [
+        "syringomyelia"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_925",
+      "correct_answer_text": "Chediak-Higashi syndrome",
+      "key_terms": [
+        "chediakhigashi",
+        "syndrome"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_1093",
+      "correct_answer_text": "Dual-energy x-ray bone absorptiometry",
+      "key_terms": [
+        "dualenergy",
+        "xray",
+        "bone",
+        "absorptiometry"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1262",
+      "correct_answer_text": "Blocking antibody attack on the O antigen",
+      "key_terms": [
+        "blocking",
+        "antibody",
+        "attack",
+        "antigen"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1217",
+      "correct_answer_text": "Broad and waxy casts",
+      "key_terms": [
+        "broad",
+        "waxy",
+        "casts"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_297",
+      "correct_answer_text": "Fluid restriction",
+      "key_terms": [
+        "fluid",
+        "restriction"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_816",
+      "correct_answer_text": "Pulmonary embolism",
+      "key_terms": [
+        "pulmonary",
+        "embolism"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_841",
+      "correct_answer_text": "Adenomatous polyp",
+      "key_terms": [
+        "adenomatous",
+        "polyp"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_1200",
+      "correct_answer_text": "Intravenous vancomycin therapy",
+      "key_terms": [
+        "intravenous",
+        "vancomycin",
+        "therapy"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_1002",
+      "correct_answer_text": "Paroxysmal atrial fibrillation",
+      "key_terms": [
+        "paroxysmal",
+        "atrial",
+        "fibrillation"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_350",
+      "correct_answer_text": "Incision and drainage with intravenous ampicillin-sulbactam therapy",
+      "key_terms": [
+        "incision",
+        "drainage",
+        "intravenous",
+        "ampicillinsulbactam",
+        "therapy"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_796",
+      "correct_answer_text": "“I can not help you due to the ethical principle of nonmaleficence.”",
+      "key_terms": [
+        "“i",
+        "help",
+        "you",
+        "ethical",
+        "principle",
+        "nonmaleficence”"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_199",
+      "correct_answer_text": "Cortical thinning with tubular atrophy",
+      "key_terms": [
+        "cortical",
+        "thinning",
+        "tubular",
+        "atrophy"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_430",
+      "correct_answer_text": "Distributive shock with warm skin",
+      "key_terms": [
+        "distributive",
+        "shock",
+        "warm",
+        "skin"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_494",
+      "correct_answer_text": "Monochorionic-diamniotic monozygotic",
+      "key_terms": [
+        "monochorionicdiamniotic",
+        "monozygotic"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_631",
+      "correct_answer_text": "Babesiosis",
+      "key_terms": [
+        "babesiosis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_939",
+      "correct_answer_text": "Decreased lymphocyte count",
+      "key_terms": [
+        "decreased",
+        "lymphocyte",
+        "count"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_10",
+      "correct_answer_text": "It is an HIV-1/HIV2 antibody differentiation immunoassay",
+      "key_terms": [
+        "hiv1hiv2",
+        "antibody",
+        "differentiation",
+        "immunoassay"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_147",
+      "correct_answer_text": "Cognitive behavioral therapy",
+      "key_terms": [
+        "cognitive",
+        "behavioral",
+        "therapy"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_298",
+      "correct_answer_text": "Polyostotic fibrous dysplasia",
+      "key_terms": [
+        "polyostotic",
+        "fibrous",
+        "dysplasia"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1031",
+      "correct_answer_text": "Yolk sac tumor",
+      "key_terms": [
+        "yolk",
+        "sac",
+        "tumor"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_622",
+      "correct_answer_text": "Presence of immunoglobulin bands on cerebrospinal fluid immunofixation",
+      "key_terms": [
+        "presence",
+        "immunoglobulin",
+        "bands",
+        "cerebrospinal",
+        "fluid",
+        "immunofixation"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_864",
+      "correct_answer_text": "Exploratory laparotomy",
+      "key_terms": [
+        "exploratory",
+        "laparotomy"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_772",
+      "correct_answer_text": "Pyrantel pamoate",
+      "key_terms": [
+        "pyrantel",
+        "pamoate"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_254",
+      "correct_answer_text": "Surgical debridement",
+      "key_terms": [
+        "surgical",
+        "debridement"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_777",
+      "correct_answer_text": "Paroxetine",
+      "key_terms": [
+        "paroxetine"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_682",
+      "correct_answer_text": "Prednisone",
+      "key_terms": [
+        "prednisone"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1039",
+      "correct_answer_text": "Pramipexole",
+      "key_terms": [
+        "pramipexole"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_306",
+      "correct_answer_text": "Ehlers-Danlos syndrome",
+      "key_terms": [
+        "ehlersdanlos",
+        "syndrome"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_915",
+      "correct_answer_text": "It can lead to hydrops fetalis secondary to fetal anemia.",
+      "key_terms": [
+        "lead",
+        "hydrops",
+        "fetalis",
+        "secondary",
+        "fetal",
+        "anemia"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_1201",
+      "correct_answer_text": "Iron deficiency",
+      "key_terms": [
+        "iron",
+        "deficiency"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1167",
+      "correct_answer_text": "Endocardial cushion",
+      "key_terms": [
+        "endocardial",
+        "cushion"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_233",
+      "correct_answer_text": "Acid-fast",
+      "key_terms": [
+        "acidfast"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1073",
+      "correct_answer_text": "Low-dose, no change in ACTH; high-dose, decreased ACTH",
+      "key_terms": [
+        "lowdose",
+        "change",
+        "acth",
+        "highdose",
+        "decreased",
+        "acth"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_1181",
+      "correct_answer_text": "Hyperplasia of the adrenal cortex",
+      "key_terms": [
+        "hyperplasia",
+        "adrenal",
+        "cortex"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_135",
+      "correct_answer_text": "Binds endogenous peptides that have been transported by the TAP channel",
+      "key_terms": [
+        "binds",
+        "endogenous",
+        "peptides",
+        "transported",
+        "tap",
+        "channel"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_832",
+      "correct_answer_text": "Amniotic fluid entering the endocervical veins",
+      "key_terms": [
+        "amniotic",
+        "fluid",
+        "entering",
+        "endocervical",
+        "veins"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_259",
+      "correct_answer_text": "HFE gene",
+      "key_terms": [
+        "hfe",
+        "gene"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_680",
+      "correct_answer_text": "Acute hepatitis B",
+      "key_terms": [
+        "acute",
+        "hepatitis"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_1177",
+      "correct_answer_text": "Copper",
+      "key_terms": [
+        "copper"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_914",
+      "correct_answer_text": "Inhibition of cross-bridge cycling",
+      "key_terms": [
+        "inhibition",
+        "crossbridge",
+        "cycling"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1257",
+      "correct_answer_text": "Arteriovenous malformation in the colonic wall",
+      "key_terms": [
+        "arteriovenous",
+        "malformation",
+        "colonic",
+        "wall"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_597",
+      "correct_answer_text": "Sodium hypochlorite",
+      "key_terms": [
+        "sodium",
+        "hypochlorite"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_363",
+      "correct_answer_text": "Papillary carcinoma of the thyroid",
+      "key_terms": [
+        "papillary",
+        "carcinoma",
+        "thyroid"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_158",
+      "correct_answer_text": "Administer calcium gluconate",
+      "key_terms": [
+        "administer",
+        "calcium",
+        "gluconate"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_140",
+      "correct_answer_text": "Amoxicilin",
+      "key_terms": [
+        "amoxicilin"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_895",
+      "correct_answer_text": "X-linked dominant",
+      "key_terms": [
+        "xlinked",
+        "dominant"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_331",
+      "correct_answer_text": "Sickle cell disease",
+      "key_terms": [
+        "sickle",
+        "cell",
+        "disease"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_591",
+      "correct_answer_text": "Chlamydia trachomatis",
+      "key_terms": [
+        "chlamydia",
+        "trachomatis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_739",
+      "correct_answer_text": "Tearing of the middle meningeal artery",
+      "key_terms": [
+        "tearing",
+        "middle",
+        "meningeal",
+        "artery"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1103",
+      "correct_answer_text": "Increased capillary hydrostatic pressure",
+      "key_terms": [
+        "increased",
+        "capillary",
+        "hydrostatic",
+        "pressure"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_371",
+      "correct_answer_text": "Cladribine",
+      "key_terms": [
+        "cladribine"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_312",
+      "correct_answer_text": "Linear aggregations of red blood cells",
+      "key_terms": [
+        "linear",
+        "aggregations",
+        "red",
+        "blood",
+        "cells"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_65",
+      "correct_answer_text": "Lytic lesions of the lumbar spine",
+      "key_terms": [
+        "lytic",
+        "lesions",
+        "lumbar",
+        "spine"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_572",
+      "correct_answer_text": "Topical metronidazole",
+      "key_terms": [
+        "topical",
+        "metronidazole"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_781",
+      "correct_answer_text": "A Western blot will show increased HIF-1α compared to a normoxic control.",
+      "key_terms": [
+        "western",
+        "blot",
+        "show",
+        "increased",
+        "hif1α",
+        "compared",
+        "normoxic",
+        "control"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_32",
+      "correct_answer_text": "Chloramphenicol",
+      "key_terms": [
+        "chloramphenicol"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_783",
+      "correct_answer_text": "Relative protein intake",
+      "key_terms": [
+        "relative",
+        "protein",
+        "intake"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_743",
+      "correct_answer_text": "Spinal metastasis",
+      "key_terms": [
+        "spinal",
+        "metastasis"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_290",
+      "correct_answer_text": "There is a 5.2% chance that A is more effective than B is due to chance",
+      "key_terms": [
+        "52",
+        "chance",
+        "effective",
+        "chance"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_96",
+      "correct_answer_text": "Autosomal dominant",
+      "key_terms": [
+        "autosomal",
+        "dominant"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_184",
+      "correct_answer_text": "Fluoxetine",
+      "key_terms": [
+        "fluoxetine"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_788",
+      "correct_answer_text": "Type II pneumocytes",
+      "key_terms": [
+        "ii",
+        "pneumocytes"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_970",
+      "correct_answer_text": "Buspirone",
+      "key_terms": [
+        "buspirone"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_163",
+      "correct_answer_text": "Positive latex agglutination test",
+      "key_terms": [
+        "positive",
+        "latex",
+        "agglutination",
+        "test"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_490",
+      "correct_answer_text": "Impaired migration of GnRH neurons",
+      "key_terms": [
+        "impaired",
+        "migration",
+        "gnrh",
+        "neurons"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_405",
+      "correct_answer_text": "Mevalonate",
+      "key_terms": [
+        "mevalonate"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_156",
+      "correct_answer_text": "Benztropine",
+      "key_terms": [
+        "benztropine"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_650",
+      "correct_answer_text": "Gastritis",
+      "key_terms": [
+        "gastritis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_770",
+      "correct_answer_text": "Hypothesis testing cannot be performed",
+      "key_terms": [
+        "hypothesis",
+        "testing",
+        "cannot",
+        "performed"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1003",
+      "correct_answer_text": "Pulmonic valve stenosis",
+      "key_terms": [
+        "pulmonic",
+        "valve",
+        "stenosis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_275",
+      "correct_answer_text": "Adenosine",
+      "key_terms": [
+        "adenosine"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_394",
+      "correct_answer_text": "Upregulation of hepcidin",
+      "key_terms": [
+        "upregulation",
+        "hepcidin"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1258",
+      "correct_answer_text": "Vasovagal syncope",
+      "key_terms": [
+        "vasovagal",
+        "syncope"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_575",
+      "correct_answer_text": "Notochord",
+      "key_terms": [
+        "notochord"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_614",
+      "correct_answer_text": "Inhibition of vitamin K-dependent clotting factors",
+      "key_terms": [
+        "inhibition",
+        "vitamin",
+        "kdependent",
+        "clotting",
+        "factors"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_826",
+      "correct_answer_text": "Lumbar puncture",
+      "key_terms": [
+        "lumbar",
+        "puncture"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_277",
+      "correct_answer_text": "Toxic tubulointerstitial nephritis",
+      "key_terms": [
+        "toxic",
+        "tubulointerstitial",
+        "nephritis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_327",
+      "correct_answer_text": "Preventable by a live attenuated vaccine",
+      "key_terms": [
+        "preventable",
+        "live",
+        "attenuated",
+        "vaccine"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1186",
+      "correct_answer_text": "Osteitis deformans",
+      "key_terms": [
+        "osteitis",
+        "deformans"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1052",
+      "correct_answer_text": "Clostridium tetani",
+      "key_terms": [
+        "clostridium",
+        "tetani"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_624",
+      "correct_answer_text": "Sodium bicarbonate",
+      "key_terms": [
+        "sodium",
+        "bicarbonate"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_581",
+      "correct_answer_text": "Age",
+      "key_terms": [
+        "age"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_570",
+      "correct_answer_text": "Administration of oral ketorolac",
+      "key_terms": [
+        "administration",
+        "oral",
+        "ketorolac"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_922",
+      "correct_answer_text": "Chronic granulomatous disease",
+      "key_terms": [
+        "chronic",
+        "granulomatous",
+        "disease"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_178",
+      "correct_answer_text": "Right-sided analgesia",
+      "key_terms": [
+        "rightsided",
+        "analgesia"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_427",
+      "correct_answer_text": "Glycosidic bonds",
+      "key_terms": [
+        "glycosidic",
+        "bonds"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_964",
+      "correct_answer_text": "Amoxicillin",
+      "key_terms": [
+        "amoxicillin"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_377",
+      "correct_answer_text": "Anti-HEV IgM",
+      "key_terms": [
+        "antihev",
+        "igm"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_381",
+      "correct_answer_text": "It is inhibited by protein kinase A activity",
+      "key_terms": [
+        "inhibited",
+        "protein",
+        "kinase",
+        "activity"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_861",
+      "correct_answer_text": "Cholecystitis",
+      "key_terms": [
+        "cholecystitis"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_88",
+      "correct_answer_text": "Thoracic aortic rupture",
+      "key_terms": [
+        "thoracic",
+        "aortic",
+        "rupture"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_671",
+      "correct_answer_text": "Tinea cruris",
+      "key_terms": [
+        "tinea",
+        "cruris"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_836",
+      "correct_answer_text": "Hyperkalemia",
+      "key_terms": [
+        "hyperkalemia"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_1266",
+      "correct_answer_text": "Nifedipine",
+      "key_terms": [
+        "nifedipine"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_481",
+      "correct_answer_text": "Increase in false negative test results",
+      "key_terms": [
+        "increase",
+        "false",
+        "negative",
+        "test",
+        "results"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_943",
+      "correct_answer_text": "Efflux of calcium ions",
+      "key_terms": [
+        "efflux",
+        "calcium",
+        "ions"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_1006",
+      "correct_answer_text": "Exophthalmos",
+      "key_terms": [
+        "exophthalmos"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_285",
+      "correct_answer_text": "Start him on both hydrocortisone and fludrocortisone therapy",
+      "key_terms": [
+        "start",
+        "him",
+        "hydrocortisone",
+        "fludrocortisone",
+        "therapy"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_1205",
+      "correct_answer_text": "Iron deficiency",
+      "key_terms": [
+        "iron",
+        "deficiency"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_352",
+      "correct_answer_text": "Adverse effect of anesthetic",
+      "key_terms": [
+        "adverse",
+        "effect",
+        "anesthetic"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.3333,
+      "hit@5": 1,
+      "prec@5": 0.2
+    },
+    {
+      "question_id": "medqa_test_266",
+      "correct_answer_text": "Primary respiratory acidosis",
+      "key_terms": [
+        "primary",
+        "respiratory",
+        "acidosis"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 0.8
+    },
+    {
+      "question_id": "medqa_test_59",
+      "correct_answer_text": "Patients with this disorder are not further sub-typed",
+      "key_terms": [
+        "patients",
+        "disorder",
+        "further",
+        "subtyped"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_979",
+      "correct_answer_text": "Lymphoma",
+      "key_terms": [
+        "lymphoma"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    },
+    {
+      "question_id": "medqa_test_965",
+      "correct_answer_text": "Inhibitor of xanthine oxidase",
+      "key_terms": [
+        "inhibitor",
+        "xanthine",
+        "oxidase"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_732",
+      "correct_answer_text": "Intravenous ciprofloxacin and vancomycin therapy",
+      "key_terms": [
+        "intravenous",
+        "ciprofloxacin",
+        "vancomycin",
+        "therapy"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.6
+    },
+    {
+      "question_id": "medqa_test_615",
+      "correct_answer_text": "Benztropine",
+      "key_terms": [
+        "benztropine"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 0.6667,
+      "hit@5": 1,
+      "prec@5": 0.4
+    },
+    {
+      "question_id": "medqa_test_1146",
+      "correct_answer_text": "Respect the patient's written instructions and do not adminster a blood transfusion",
+      "key_terms": [
+        "respect",
+        "patients",
+        "written",
+        "instructions",
+        "adminster",
+        "blood",
+        "transfusion"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_573",
+      "correct_answer_text": "Increased right ventricular afterload",
+      "key_terms": [
+        "increased",
+        "right",
+        "ventricular",
+        "afterload"
+      ],
+      "hit@1": 1,
+      "prec@1": 1.0,
+      "hit@3": 1,
+      "prec@3": 1.0,
+      "hit@5": 1,
+      "prec@5": 1.0
+    },
+    {
+      "question_id": "medqa_test_820",
+      "correct_answer_text": "Waldenstrom’s macroglobulinemia",
+      "key_terms": [
+        "waldenstrom’s",
+        "macroglobulinemia"
+      ],
+      "hit@1": 0,
+      "prec@1": 0.0,
+      "hit@3": 0,
+      "prec@3": 0.0,
+      "hit@5": 0,
+      "prec@5": 0.0
+    }
+  ]
+}

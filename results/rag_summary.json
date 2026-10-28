@@ -1,0 +1,19 @@
+{
+  "dataset": "MedQA (USMLE)",
+  "split": "test",
+  "total_test_split_questions": 1273,
+  "evaluated_questions": 300,
+  "num_correct": 128,
+  "accuracy_percent": 42.67,
+  "num_unparsed": 61,
+  "unparsed_percent": 20.33,
+  "accuracy_on_parsed": 53.56,
+  "average_latency_seconds": 17.42,
+  "ollama_model": "llama3:latest",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "sampling_used": true,
+  "sample_size": 300,
+  "random_seed": 42,
+  "results_file": "C:\\Users\\shanm\\OneDrive\\Desktop\\Medical Question Answering\\results\\rag_full_results.jsonl",
+  "timestamp": "2026-10-25T20:03:47.151135"
+}

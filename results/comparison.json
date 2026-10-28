@@ -1,0 +1,33 @@
+{
+  "dataset": "MedQA (USMLE)",
+  "model": "llama3:latest",
+  "total_questions": 300,
+  "rag_system": {
+    "num_correct": 128,
+    "accuracy_percent": 42.67,
+    "num_unparsed": 61,
+    "unparsed_percent": 20.33,
+    "average_latency_seconds": 17.42
+  },
+  "baseline_system": {
+    "num_correct": 146,
+    "accuracy_percent": 48.67,
+    "num_unparsed": 2,
+    "unparsed_percent": 0.67,
+    "average_latency_seconds": 10.89
+  },
+  "difference_percentage_points": -6.0,
+  "contingency_table_2x2": {
+    "both_correct": 95,
+    "only_rag_correct": 33,
+    "only_baseline_correct": 51,
+    "both_wrong": 121
+  },
+  "contingency_percentages": {
+    "both_correct_pct": 31.67,
+    "only_rag_correct_pct": 11.0,
+    "only_baseline_correct_pct": 17.0,
+    "both_wrong_pct": 40.33
+  },
+  "timestamp": "2026-10-25T21:10:35.544929"
+}

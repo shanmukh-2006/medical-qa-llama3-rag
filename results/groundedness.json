@@ -1,0 +1,4576 @@
+{
+  "description": "Lexical-overlap proxy. A sentence is grounded if >= 50% of its non-stopword content words appear in the concatenated top-5 retrieved chunks. Per-answer groundedness = fraction of grounded sentences. NOT semantic faithfulness.",
+  "num_questions": 300,
+  "avg_grounded_fraction_all": 0.6436,
+  "avg_grounded_fraction_correct_answers": 0.6705,
+  "avg_grounded_fraction_incorrect_answers": 0.7155,
+  "num_parsed_correct": 128,
+  "num_parsed_incorrect": 111,
+  "per_question": [
+    {
+      "question_id": "medqa_test_43",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6667,
+        0.6667,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_1160",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.64,
+        0.6875,
+        0.625,
+        0.4545
+      ]
+    },
+    {
+      "question_id": "medqa_test_128",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 5,
+      "grounded_fraction": 0.6,
+      "sentence_scores": [
+        0.3,
+        0.6667,
+        0.6667,
+        0.5294,
+        0.375
+      ]
+    },
+    {
+      "question_id": "medqa_test_1232",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 6,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.0,
+        0.3077,
+        0.0,
+        0.4286,
+        0.3333,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_1193",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 4,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.4762,
+        0.4667,
+        0.5833,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_693",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 7,
+      "grounded_fraction": 0.5714,
+      "sentence_scores": [
+        0.2857,
+        0.6111,
+        0.625,
+        0.5455,
+        0.6538,
+        0.3846,
+        0.4375
+      ]
+    },
+    {
+      "question_id": "medqa_test_1132",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 7,
+      "grounded_fraction": 0.4286,
+      "sentence_scores": [
+        0.125,
+        0.4286,
+        0.3077,
+        0.7778,
+        0.625,
+        0.8,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_859",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 7,
+      "grounded_fraction": 0.5714,
+      "sentence_scores": [
+        0.35,
+        0.8824,
+        0.75,
+        0.375,
+        0.6,
+        0.3846,
+        0.7778
+      ]
+    },
+    {
+      "question_id": "medqa_test_534",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 8,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.4444,
+        0.8125,
+        0.6667,
+        0.9048,
+        0.3571,
+        0.6875,
+        0.75,
+        0.625
+      ]
+    },
+    {
+      "question_id": "medqa_test_778",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.75,
+        0.6667,
+        0.8947,
+        0.6667,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_367",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.5714,
+        0.8,
+        0.375,
+        0.5333
+      ]
+    },
+    {
+      "question_id": "medqa_test_361",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 11,
+      "grounded_fraction": 0.9091,
+      "sentence_scores": [
+        0.0,
+        0.8,
+        0.75,
+        1.0,
+        0.625,
+        0.5714,
+        0.8235,
+        0.5556,
+        0.7,
+        0.625,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_721",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 2,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.3824,
+        0.25
+      ]
+    },
+    {
+      "question_id": "medqa_test_873",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 6,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.2222,
+        0.6667,
+        0.6316,
+        0.8,
+        0.1429,
+        0.75
+      ]
+    },
+    {
+      "question_id": "medqa_test_636",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 8,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.2222,
+        0.6364,
+        1.0,
+        0.7273,
+        0.8571,
+        0.5,
+        0.3333,
+        0.75
+      ]
+    },
+    {
+      "question_id": "medqa_test_123",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 6,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.5,
+        0.1333,
+        0.4737,
+        0.3077,
+        0.52,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_328",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.3571,
+        0.7059,
+        0.8125
+      ]
+    },
+    {
+      "question_id": "medqa_test_461",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 8,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.5769,
+        0.7778,
+        0.75,
+        0.5714,
+        0.6364,
+        0.4615,
+        0.7857,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_247",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 11,
+      "grounded_fraction": 0.8182,
+      "sentence_scores": [
+        0.25,
+        0.5,
+        0.5,
+        0.5714,
+        0.5556,
+        0.4375,
+        0.5,
+        0.5,
+        0.6,
+        0.6,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_974",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 5,
+      "grounded_fraction": 0.6,
+      "sentence_scores": [
+        0.1,
+        0.5556,
+        0.7778,
+        0.7333,
+        0.1
+      ]
+    },
+    {
+      "question_id": "medqa_test_409",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 4,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.1667,
+        0.6471,
+        0.5455,
+        0.1111
+      ]
+    },
+    {
+      "question_id": "medqa_test_51",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 7,
+      "grounded_fraction": 0.8571,
+      "sentence_scores": [
+        0.5,
+        0.6667,
+        0.8667,
+        0.5789,
+        0.75,
+        0.45,
+        0.7
+      ]
+    },
+    {
+      "question_id": "medqa_test_155",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.125,
+        0.8182,
+        0.5,
+        0.5833
+      ]
+    },
+    {
+      "question_id": "medqa_test_1248",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.2222,
+        0.4706,
+        0.2308
+      ]
+    },
+    {
+      "question_id": "medqa_test_231",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.7083,
+        0.625,
+        0.7273,
+        0.625
+      ]
+    },
+    {
+      "question_id": "medqa_test_1189",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 7,
+      "grounded_fraction": 0.8571,
+      "sentence_scores": [
+        0.6364,
+        0.7143,
+        0.5,
+        0.6818,
+        0.4545,
+        0.6667,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_210",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.0,
+        0.4667,
+        0.3
+      ]
+    },
+    {
+      "question_id": "medqa_test_63",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5652,
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_1045",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 9,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6667,
+        0.8095,
+        0.8182,
+        0.625,
+        0.8333,
+        0.5455,
+        0.8,
+        0.5714,
+        0.8
+      ]
+    },
+    {
+      "question_id": "medqa_test_715",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.7619,
+        1.0,
+        1.0,
+        0.8333
+      ]
+    },
+    {
+      "question_id": "medqa_test_23",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 10,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.1429,
+        0.2,
+        0.5,
+        0.6667,
+        1.0,
+        0.6667,
+        0.5,
+        0.8235,
+        0.6471,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_265",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.3333,
+        0.4545,
+        0.6154
+      ]
+    },
+    {
+      "question_id": "medqa_test_1265",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 3,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.0,
+        0.4545,
+        0.4615
+      ]
+    },
+    {
+      "question_id": "medqa_test_76",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 5,
+      "grounded_fraction": 0.2,
+      "sentence_scores": [
+        0.1111,
+        0.4615,
+        0.4286,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_996",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5833,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_192",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.5484,
+        0.6154,
+        0.5833,
+        0.1818
+      ]
+    },
+    {
+      "question_id": "medqa_test_209",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5833,
+        0.8333,
+        0.5455,
+        0.8125
+      ]
+    },
+    {
+      "question_id": "medqa_test_332",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 5,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5714,
+        1.0,
+        0.8333,
+        0.8,
+        0.875
+      ]
+    },
+    {
+      "question_id": "medqa_test_618",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 10,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.2857,
+        0.6923,
+        0.8,
+        0.3,
+        0.8,
+        0.6,
+        0.6667,
+        0.6,
+        0.625,
+        0.75
+      ]
+    },
+    {
+      "question_id": "medqa_test_1124",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.7826,
+        0.9444,
+        0.8
+      ]
+    },
+    {
+      "question_id": "medqa_test_101",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5714,
+        0.8333,
+        0.75
+      ]
+    },
+    {
+      "question_id": "medqa_test_585",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.25,
+        0.8889,
+        0.7917,
+        0.8333
+      ]
+    },
+    {
+      "question_id": "medqa_test_425",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 8,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.5,
+        0.4,
+        0.6364,
+        0.5,
+        0.5333,
+        0.6667,
+        0.75,
+        0.4762
+      ]
+    },
+    {
+      "question_id": "medqa_test_1133",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 8,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5,
+        0.8,
+        0.7778,
+        0.7,
+        0.8421,
+        0.8889,
+        0.6471,
+        0.8571
+      ]
+    },
+    {
+      "question_id": "medqa_test_1164",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 10,
+      "grounded_fraction": 0.9,
+      "sentence_scores": [
+        0.5185,
+        0.6154,
+        0.6667,
+        0.4444,
+        0.6667,
+        0.8571,
+        0.5652,
+        0.5882,
+        0.6,
+        0.5385
+      ]
+    },
+    {
+      "question_id": "medqa_test_893",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 5,
+      "grounded_fraction": 0.4,
+      "sentence_scores": [
+        0.6429,
+        0.6667,
+        0.0,
+        0.1875,
+        0.3846
+      ]
+    },
+    {
+      "question_id": "medqa_test_519",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 7,
+      "grounded_fraction": 0.5714,
+      "sentence_scores": [
+        0.1667,
+        0.3571,
+        0.6,
+        0.8571,
+        0.8125,
+        0.5625,
+        0.4167
+      ]
+    },
+    {
+      "question_id": "medqa_test_1070",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5714,
+        1.0,
+        0.5714,
+        0.5556
+      ]
+    },
+    {
+      "question_id": "medqa_test_1022",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 5,
+      "grounded_fraction": 0.2,
+      "sentence_scores": [
+        0.6667,
+        0.2222,
+        0.4,
+        0.3333,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_168",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5,
+        0.6111,
+        0.875,
+        0.5455
+      ]
+    },
+    {
+      "question_id": "medqa_test_435",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 8,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.3333,
+        0.6875,
+        0.4,
+        0.8333,
+        0.6364,
+        0.8462,
+        0.375,
+        0.4286
+      ]
+    },
+    {
+      "question_id": "medqa_test_1149",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.7,
+        0.9091,
+        0.5294
+      ]
+    },
+    {
+      "question_id": "medqa_test_282",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 7,
+      "grounded_fraction": 0.2857,
+      "sentence_scores": [
+        0.5312,
+        0.4118,
+        0.4,
+        0.3,
+        0.5455,
+        0.4167,
+        0.4667
+      ]
+    },
+    {
+      "question_id": "medqa_test_941",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 7,
+      "grounded_fraction": 0.1429,
+      "sentence_scores": [
+        0.5833,
+        0.3333,
+        0.4444,
+        0.3846,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_1233",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 6,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.1667,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.25
+      ]
+    },
+    {
+      "question_id": "medqa_test_643",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.4333,
+        0.5333,
+        0.4286
+      ]
+    },
+    {
+      "question_id": "medqa_test_885",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 9,
+      "grounded_fraction": 0.7778,
+      "sentence_scores": [
+        0.0,
+        0.4865,
+        0.6562,
+        0.6667,
+        0.5833,
+        0.5,
+        0.9231,
+        0.6,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_1234",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 6,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.2143,
+        0.5263,
+        0.3333,
+        0.75,
+        0.5455,
+        0.4706
+      ]
+    },
+    {
+      "question_id": "medqa_test_413",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 14,
+      "grounded_fraction": 0.6429,
+      "sentence_scores": [
+        0.3333,
+        0.3,
+        0.5,
+        0.5714,
+        0.7143,
+        0.5455,
+        0.8889,
+        0.0,
+        0.5833,
+        0.8,
+        0.5833,
+        0.375,
+        0.3333,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_196",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 6,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5556,
+        0.6154,
+        0.6667,
+        0.7143,
+        0.5385,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_438",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 6,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.3077,
+        0.7059,
+        0.5714,
+        0.35,
+        0.4,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_660",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 7,
+      "grounded_fraction": 0.5714,
+      "sentence_scores": [
+        0.4828,
+        0.5556,
+        0.5882,
+        0.7778,
+        0.4167,
+        0.7857,
+        0.4
+      ]
+    },
+    {
+      "question_id": "medqa_test_1260",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5294,
+        0.5455,
+        0.5556
+      ]
+    },
+    {
+      "question_id": "medqa_test_695",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 10,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.3,
+        0.7273,
+        0.9167,
+        0.8889,
+        0.875,
+        0.8571,
+        0.6875,
+        0.4444,
+        0.7,
+        0.8333
+      ]
+    },
+    {
+      "question_id": "medqa_test_892",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 8,
+      "grounded_fraction": 0.625,
+      "sentence_scores": [
+        0.2857,
+        0.7273,
+        0.9167,
+        0.4615,
+        0.5238,
+        0.625,
+        0.7143,
+        0.375
+      ]
+    },
+    {
+      "question_id": "medqa_test_220",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 5,
+      "grounded_fraction": 0.4,
+      "sentence_scores": [
+        0.2857,
+        0.4545,
+        0.6111,
+        0.7895,
+        0.4706
+      ]
+    },
+    {
+      "question_id": "medqa_test_889",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 7,
+      "grounded_fraction": 0.7143,
+      "sentence_scores": [
+        0.375,
+        0.6,
+        0.6923,
+        0.4615,
+        0.875,
+        0.6667,
+        0.7333
+      ]
+    },
+    {
+      "question_id": "medqa_test_528",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 4,
+      "grounded_fraction": 0.25,
+      "sentence_scores": [
+        0.2222,
+        0.5556,
+        0.2857,
+        0.1667
+      ]
+    },
+    {
+      "question_id": "medqa_test_478",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 8,
+      "grounded_fraction": 0.375,
+      "sentence_scores": [
+        0.2857,
+        0.4,
+        0.9286,
+        0.3684,
+        0.3333,
+        0.75,
+        0.5,
+        0.1
+      ]
+    },
+    {
+      "question_id": "medqa_test_620",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 5,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.7143,
+        1.0,
+        1.0,
+        0.5625,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_270",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6,
+        0.9,
+        0.6111
+      ]
+    },
+    {
+      "question_id": "medqa_test_261",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.7778,
+        0.5714
+      ]
+    },
+    {
+      "question_id": "medqa_test_81",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 4,
+      "grounded_fraction": 0.25,
+      "sentence_scores": [
+        0.0,
+        0.5,
+        0.4444,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_1135",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 5,
+      "grounded_fraction": 0.4,
+      "sentence_scores": [
+        0.1429,
+        0.4286,
+        0.7143,
+        0.6667,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_78",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 8,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.7931,
+        0.5,
+        0.7778,
+        0.6111,
+        0.8,
+        0.9333,
+        0.9412,
+        0.5455
+      ]
+    },
+    {
+      "question_id": "medqa_test_599",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 6,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.5,
+        0.4545,
+        0.6667,
+        0.4545,
+        0.6316,
+        0.4167
+      ]
+    },
+    {
+      "question_id": "medqa_test_551",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 7,
+      "grounded_fraction": 0.5714,
+      "sentence_scores": [
+        0.45,
+        0.9375,
+        0.8235,
+        0.6429,
+        0.4286,
+        0.6,
+        0.4286
+      ]
+    },
+    {
+      "question_id": "medqa_test_58",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.4762,
+        0.8889,
+        0.6667,
+        1.0,
+        0.5455
+      ]
+    },
+    {
+      "question_id": "medqa_test_1108",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 9,
+      "grounded_fraction": 0.5556,
+      "sentence_scores": [
+        0.375,
+        0.7143,
+        0.8667,
+        1.0,
+        1.0,
+        0.4167,
+        0.25,
+        0.4,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_464",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 2,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.2703,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_700",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5294,
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "question_id": "medqa_test_1247",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 13,
+      "grounded_fraction": 0.7692,
+      "sentence_scores": [
+        0.0,
+        0.5,
+        0.5556,
+        0.8,
+        0.7273,
+        0.9,
+        0.9167,
+        0.8571,
+        0.9545,
+        0.5333,
+        0.6923,
+        0.2857,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_423",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 8,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.2857,
+        0.7,
+        0.4615,
+        0.8125,
+        0.8125,
+        0.7143,
+        0.8333,
+        0.9
+      ]
+    },
+    {
+      "question_id": "medqa_test_49",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5,
+        0.7143,
+        0.7,
+        0.6923
+      ]
+    },
+    {
+      "question_id": "medqa_test_289",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.0,
+        0.4667,
+        0.125
+      ]
+    },
+    {
+      "question_id": "medqa_test_1161",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 4,
+      "grounded_fraction": 0.25,
+      "sentence_scores": [
+        0.3333,
+        0.3333,
+        0.5,
+        0.2857
+      ]
+    },
+    {
+      "question_id": "medqa_test_809",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.6207,
+        0.9333,
+        1.0,
+        0.375
+      ]
+    },
+    {
+      "question_id": "medqa_test_462",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5714,
+        0.7,
+        0.8667,
+        0.7273
+      ]
+    },
+    {
+      "question_id": "medqa_test_439",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 4,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.0833,
+        0.55,
+        0.8571,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_355",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.7273,
+        0.9167,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_428",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6071,
+        0.8,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_422",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 6,
+      "grounded_fraction": 0.8333,
+      "sentence_scores": [
+        0.55,
+        0.3333,
+        0.6364,
+        0.7895,
+        0.6667,
+        0.5714
+      ]
+    },
+    {
+      "question_id": "medqa_test_374",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.5882,
+        0.5,
+        0.3636
+      ]
+    },
+    {
+      "question_id": "medqa_test_1084",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 7,
+      "grounded_fraction": 0.2857,
+      "sentence_scores": [
+        0.5,
+        0.5789,
+        0.3333,
+        0.2857,
+        0.3333,
+        0.2,
+        0.2
+      ]
+    },
+    {
+      "question_id": "medqa_test_667",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 8,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.76,
+        0.8889,
+        0.875,
+        0.6429,
+        0.6364,
+        1.0,
+        0.8,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_666",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.4783,
+        0.9,
+        0.9286,
+        0.5556
+      ]
+    },
+    {
+      "question_id": "medqa_test_1037",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 6,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.1429,
+        0.5,
+        0.375,
+        0.8889,
+        1.0,
+        0.7333
+      ]
+    },
+    {
+      "question_id": "medqa_test_1183",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 16,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.2857,
+        0.3,
+        0.7,
+        0.3333,
+        0.8571,
+        0.625,
+        0.6,
+        0.5385,
+        0.5714,
+        0.6,
+        0.5,
+        0.7895,
+        0.6667,
+        0.7,
+        0.3333,
+        0.5714
+      ]
+    },
+    {
+      "question_id": "medqa_test_714",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 5,
+      "grounded_fraction": 0.4,
+      "sentence_scores": [
+        0.1538,
+        0.5385,
+        0.4118,
+        0.875,
+        0.4167
+      ]
+    },
+    {
+      "question_id": "medqa_test_208",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.625,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_240",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6364,
+        0.8182
+      ]
+    },
+    {
+      "question_id": "medqa_test_999",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 16,
+      "grounded_fraction": 0.5625,
+      "sentence_scores": [
+        0.1538,
+        0.4375,
+        0.7273,
+        0.25,
+        1.0,
+        0.0,
+        1.0,
+        0.5,
+        1.0,
+        0.25,
+        1.0,
+        0.6,
+        1.0,
+        0.0,
+        1.0,
+        0.125
+      ]
+    },
+    {
+      "question_id": "medqa_test_243",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5417,
+        0.8333
+      ]
+    },
+    {
+      "question_id": "medqa_test_602",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 4,
+      "grounded_fraction": 0.25,
+      "sentence_scores": [
+        0.3125,
+        0.5,
+        0.375,
+        0.2778
+      ]
+    },
+    {
+      "question_id": "medqa_test_983",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.8,
+        0.9524,
+        0.6875,
+        0.75
+      ]
+    },
+    {
+      "question_id": "medqa_test_1061",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 11,
+      "grounded_fraction": 0.8182,
+      "sentence_scores": [
+        0.25,
+        0.7778,
+        0.7692,
+        0.5,
+        0.7059,
+        0.5,
+        0.8333,
+        0.6667,
+        0.7143,
+        0.7,
+        0.25
+      ]
+    },
+    {
+      "question_id": "medqa_test_984",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 6,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.4,
+        0.7143,
+        0.35,
+        0.5833,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_765",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 7,
+      "grounded_fraction": 0.7143,
+      "sentence_scores": [
+        0.68,
+        0.4545,
+        0.75,
+        0.375,
+        0.625,
+        0.7,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_174",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5,
+        1.0,
+        0.7333,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_814",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 8,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.1429,
+        0.9048,
+        0.6667,
+        0.4,
+        0.8571,
+        0.625,
+        0.7143,
+        0.8462
+      ]
+    },
+    {
+      "question_id": "medqa_test_994",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.2,
+        0.6471,
+        0.8889
+      ]
+    },
+    {
+      "question_id": "medqa_test_967",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 10,
+      "grounded_fraction": 0.7,
+      "sentence_scores": [
+        0.0,
+        0.8889,
+        0.3077,
+        0.2857,
+        0.6667,
+        0.75,
+        0.7692,
+        0.75,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_44",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 7,
+      "grounded_fraction": 0.8571,
+      "sentence_scores": [
+        0.6364,
+        0.8571,
+        0.75,
+        0.3636,
+        0.5,
+        0.6667,
+        0.75
+      ]
+    },
+    {
+      "question_id": "medqa_test_1211",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 7,
+      "grounded_fraction": 0.8571,
+      "sentence_scores": [
+        0.2222,
+        0.5556,
+        1.0,
+        0.7,
+        0.75,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_477",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 6,
+      "grounded_fraction": 0.8333,
+      "sentence_scores": [
+        0.1429,
+        0.8125,
+        0.8571,
+        0.9,
+        0.5385,
+        0.92
+      ]
+    },
+    {
+      "question_id": "medqa_test_29",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 6,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.4286,
+        0.9333,
+        1.0,
+        0.4706,
+        0.7333,
+        0.75
+      ]
+    },
+    {
+      "question_id": "medqa_test_31",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 4,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.1429,
+        0.6154,
+        0.5,
+        0.4737
+      ]
+    },
+    {
+      "question_id": "medqa_test_1157",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 10,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.3333,
+        0.8333,
+        0.6667,
+        0.3333,
+        0.6667,
+        0.7857,
+        0.5,
+        0.5,
+        0.6,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_382",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.619,
+        0.625
+      ]
+    },
+    {
+      "question_id": "medqa_test_907",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 4,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.25,
+        0.75,
+        0.5652,
+        0.2222
+      ]
+    },
+    {
+      "question_id": "medqa_test_583",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.1429,
+        0.5789,
+        0.6364,
+        0.8,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_86",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6471,
+        0.6667,
+        0.75
+      ]
+    },
+    {
+      "question_id": "medqa_test_1091",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.0,
+        0.65,
+        0.4286
+      ]
+    },
+    {
+      "question_id": "medqa_test_308",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.5385,
+        0.4615,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_756",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 9,
+      "grounded_fraction": 0.7778,
+      "sentence_scores": [
+        0.2857,
+        0.8571,
+        0.5,
+        0.3333,
+        0.5455,
+        0.7,
+        0.8571,
+        0.5333,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_704",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.3333,
+        0.5909,
+        0.2857
+      ]
+    },
+    {
+      "question_id": "medqa_test_70",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.1429,
+        0.7308,
+        0.7273,
+        0.7778,
+        0.8182
+      ]
+    },
+    {
+      "question_id": "medqa_test_1259",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 10,
+      "grounded_fraction": 0.7,
+      "sentence_scores": [
+        0.1429,
+        0.5,
+        0.1667,
+        0.5,
+        0.6667,
+        0.75,
+        0.6667,
+        0.7647,
+        0.5625,
+        0.4375
+      ]
+    },
+    {
+      "question_id": "medqa_test_411",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 11,
+      "grounded_fraction": 0.9091,
+      "sentence_scores": [
+        0.2857,
+        0.75,
+        0.8,
+        1.0,
+        0.75,
+        1.0,
+        0.6667,
+        1.0,
+        0.6364,
+        0.64,
+        0.7647
+      ]
+    },
+    {
+      "question_id": "medqa_test_358",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.4118,
+        0.6667,
+        0.5455,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_244",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 9,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.2,
+        0.375,
+        0.1667,
+        0.8,
+        0.5833,
+        0.3,
+        0.7059,
+        0.4286,
+        0.3
+      ]
+    },
+    {
+      "question_id": "medqa_test_952",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 12,
+      "grounded_fraction": 0.9167,
+      "sentence_scores": [
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.6087,
+        0.5455,
+        0.7143,
+        0.5,
+        0.7692,
+        0.4545
+      ]
+    },
+    {
+      "question_id": "medqa_test_578",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.4211,
+        0.4118,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_535",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 2,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.2609,
+        0.5556
+      ]
+    },
+    {
+      "question_id": "medqa_test_1140",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 5,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.3,
+        0.0,
+        0.3889,
+        0.4444,
+        0.3077
+      ]
+    },
+    {
+      "question_id": "medqa_test_1175",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 10,
+      "grounded_fraction": 0.9,
+      "sentence_scores": [
+        0.6111,
+        0.6667,
+        0.5556,
+        1.0,
+        0.8889,
+        1.0,
+        0.7333,
+        0.4167,
+        0.6875,
+        0.7273
+      ]
+    },
+    {
+      "question_id": "medqa_test_113",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 11,
+      "grounded_fraction": 0.4545,
+      "sentence_scores": [
+        0.5,
+        0.6667,
+        0.5,
+        0.5,
+        0.4,
+        0.5,
+        0.35,
+        0.4211,
+        0.3333,
+        0.2143,
+        0.3571
+      ]
+    },
+    {
+      "question_id": "medqa_test_497",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 6,
+      "grounded_fraction": 0.8333,
+      "sentence_scores": [
+        0.2857,
+        0.9231,
+        0.75,
+        0.875,
+        0.6957,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_1026",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.7273,
+        0.7647,
+        0.8788,
+        1.0,
+        0.4
+      ]
+    },
+    {
+      "question_id": "medqa_test_1263",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 4,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.4091,
+        0.5,
+        0.7778,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_309",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 5,
+      "grounded_fraction": 0.4,
+      "sentence_scores": [
+        0.3333,
+        0.5,
+        0.55,
+        0.25,
+        0.4762
+      ]
+    },
+    {
+      "question_id": "medqa_test_107",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 15,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.5,
+        0.0,
+        0.1667,
+        0.75,
+        0.8889,
+        0.4,
+        0.7,
+        0.4545,
+        1.0,
+        0.5,
+        1.0,
+        0.2857,
+        1.0,
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_985",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 8,
+      "grounded_fraction": 0.375,
+      "sentence_scores": [
+        0.3,
+        0.4167,
+        0.4375,
+        0.5833,
+        0.4762,
+        0.2857,
+        0.7143,
+        0.8333
+      ]
+    },
+    {
+      "question_id": "medqa_test_1015",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 9,
+      "grounded_fraction": 0.8889,
+      "sentence_scores": [
+        0.5,
+        0.8,
+        0.875,
+        0.6667,
+        0.25,
+        0.9333,
+        0.9333,
+        0.6,
+        0.9091
+      ]
+    },
+    {
+      "question_id": "medqa_test_926",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 6,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.125,
+        0.85,
+        0.5833,
+        0.4706,
+        0.4444,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_1172",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5714,
+        0.8889,
+        0.6923
+      ]
+    },
+    {
+      "question_id": "medqa_test_218",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 6,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.1429,
+        0.625,
+        0.6667,
+        0.8333,
+        0.6429,
+        0.3846
+      ]
+    },
+    {
+      "question_id": "medqa_test_514",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 2,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.1,
+        0.25
+      ]
+    },
+    {
+      "question_id": "medqa_test_346",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 9,
+      "grounded_fraction": 0.1111,
+      "sentence_scores": [
+        0.4545,
+        0.2941,
+        0.3333,
+        0.25,
+        0.3846,
+        0.2308,
+        0.5,
+        0.2727,
+        0.2857
+      ]
+    },
+    {
+      "question_id": "medqa_test_665",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.65,
+        0.7273,
+        1.0,
+        0.8
+      ]
+    },
+    {
+      "question_id": "medqa_test_708",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 9,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.6667,
+        0.7143,
+        1.0,
+        0.75,
+        0.7778,
+        0.5,
+        0.0,
+        0.4,
+        0.25
+      ]
+    },
+    {
+      "question_id": "medqa_test_1208",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 6,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.4286,
+        0.8462,
+        0.2632,
+        0.4286,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_294",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6667,
+        0.5294
+      ]
+    },
+    {
+      "question_id": "medqa_test_1158",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.8,
+        0.2,
+        0.5,
+        0.58,
+        0.5833
+      ]
+    },
+    {
+      "question_id": "medqa_test_286",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.7742,
+        0.6
+      ]
+    },
+    {
+      "question_id": "medqa_test_1117",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.2857,
+        0.8,
+        0.6667,
+        0.5455,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_1239",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 10,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.5,
+        0.3333,
+        0.3333,
+        0.75,
+        0.4167,
+        0.3636,
+        0.6364,
+        0.5,
+        0.5,
+        0.4444
+      ]
+    },
+    {
+      "question_id": "medqa_test_755",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 7,
+      "grounded_fraction": 0.7143,
+      "sentence_scores": [
+        0.2727,
+        0.7368,
+        0.75,
+        0.6667,
+        0.8333,
+        0.8182,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_1271",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 12,
+      "grounded_fraction": 0.9167,
+      "sentence_scores": [
+        0.6522,
+        1.0,
+        0.6,
+        0.75,
+        0.25,
+        0.9286,
+        1.0,
+        0.7368,
+        1.0,
+        0.9091,
+        1.0,
+        0.8667
+      ]
+    },
+    {
+      "question_id": "medqa_test_560",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 9,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.5,
+        0.5882,
+        0.5714,
+        0.5455,
+        0.6667,
+        0.5333,
+        0.44,
+        0.3571,
+        0.4167
+      ]
+    },
+    {
+      "question_id": "medqa_test_54",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 1,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6471
+      ]
+    },
+    {
+      "question_id": "medqa_test_303",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 13,
+      "grounded_fraction": 0.8462,
+      "sentence_scores": [
+        0.2857,
+        0.5556,
+        0.5455,
+        1.0,
+        0.9474,
+        0.4286,
+        0.6429,
+        0.625,
+        0.8636,
+        0.9,
+        0.6667,
+        0.75,
+        0.6
+      ]
+    },
+    {
+      "question_id": "medqa_test_339",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 9,
+      "grounded_fraction": 0.8889,
+      "sentence_scores": [
+        0.5714,
+        0.8889,
+        1.0,
+        0.7857,
+        0.7857,
+        0.4375,
+        0.5,
+        0.6364,
+        0.625
+      ]
+    },
+    {
+      "question_id": "medqa_test_56",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.1429,
+        0.875,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_858",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 7,
+      "grounded_fraction": 0.8571,
+      "sentence_scores": [
+        0.375,
+        0.6667,
+        0.75,
+        0.75,
+        1.0,
+        0.8,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_109",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.56,
+        0.7857,
+        0.3636
+      ]
+    },
+    {
+      "question_id": "medqa_test_1049",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 4,
+      "grounded_fraction": 0.25,
+      "sentence_scores": [
+        0.4074,
+        0.4667,
+        0.4375,
+        0.5294
+      ]
+    },
+    {
+      "question_id": "medqa_test_676",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.2727,
+        0.5789,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_626",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 15,
+      "grounded_fraction": 0.6,
+      "sentence_scores": [
+        0.375,
+        0.6667,
+        0.5,
+        0.4,
+        0.0,
+        0.0,
+        0.5,
+        0.6667,
+        1.0,
+        0.4783,
+        0.5714,
+        0.7692,
+        0.5,
+        0.625,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_198",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 8,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.25,
+        0.2727,
+        0.2857,
+        0.2857,
+        0.55,
+        0.75,
+        0.5,
+        0.5556
+      ]
+    },
+    {
+      "question_id": "medqa_test_415",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 25,
+      "grounded_fraction": 0.96,
+      "sentence_scores": [
+        0.2857,
+        0.5556,
+        0.5455,
+        0.8182,
+        0.5714,
+        0.7778,
+        0.5,
+        1.0,
+        0.875,
+        0.6667,
+        0.7692,
+        0.8571,
+        0.6364,
+        0.7778,
+        1.0,
+        1.0,
+        0.6364,
+        0.6364,
+        0.8462,
+        0.8571,
+        0.5556,
+        1.0,
+        0.8571,
+        0.6923,
+        0.6
+      ]
+    },
+    {
+      "question_id": "medqa_test_506",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.4286,
+        0.5714,
+        0.5714,
+        0.75
+      ]
+    },
+    {
+      "question_id": "medqa_test_1062",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 5,
+      "grounded_fraction": 0.2,
+      "sentence_scores": [
+        0.3333,
+        0.3333,
+        0.4615,
+        0.3846,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_605",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 9,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.4286,
+        0.6429,
+        0.5,
+        0.6154,
+        0.5556,
+        0.6087,
+        0.25,
+        0.4545,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_932",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 9,
+      "grounded_fraction": 0.7778,
+      "sentence_scores": [
+        0.4444,
+        0.7692,
+        0.7368,
+        0.6429,
+        0.2857,
+        0.6667,
+        0.8182,
+        0.75,
+        0.9286
+      ]
+    },
+    {
+      "question_id": "medqa_test_977",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 1,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5588
+      ]
+    },
+    {
+      "question_id": "medqa_test_1142",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 10,
+      "grounded_fraction": 0.4,
+      "sentence_scores": [
+        0.2857,
+        0.3,
+        0.1818,
+        0.3571,
+        0.2667,
+        0.5455,
+        0.5,
+        0.7,
+        0.25,
+        0.7273
+      ]
+    },
+    {
+      "question_id": "medqa_test_296",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 8,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.5833,
+        0.0,
+        0.75,
+        0.0,
+        0.3333,
+        0.4167,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_485",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 6,
+      "grounded_fraction": 0.8333,
+      "sentence_scores": [
+        0.5556,
+        1.0,
+        1.0,
+        0.913,
+        0.7,
+        0.4
+      ]
+    },
+    {
+      "question_id": "medqa_test_442",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 2,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.5417,
+        0.25
+      ]
+    },
+    {
+      "question_id": "medqa_test_479",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 8,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.45,
+        0.875,
+        0.8235,
+        0.3333,
+        0.5,
+        0.5714,
+        0.5,
+        0.9375
+      ]
+    },
+    {
+      "question_id": "medqa_test_946",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 8,
+      "grounded_fraction": 0.875,
+      "sentence_scores": [
+        0.76,
+        0.5556,
+        0.8235,
+        0.25,
+        0.5556,
+        1.0,
+        0.7333,
+        0.7273
+      ]
+    },
+    {
+      "question_id": "medqa_test_553",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6316,
+        0.5625
+      ]
+    },
+    {
+      "question_id": "medqa_test_554",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.4,
+        0.7143,
+        0.7647
+      ]
+    },
+    {
+      "question_id": "medqa_test_1269",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 10,
+      "grounded_fraction": 0.6,
+      "sentence_scores": [
+        0.5,
+        0.4167,
+        0.6,
+        0.6667,
+        0.75,
+        0.3158,
+        0.4,
+        0.6471,
+        0.7778,
+        0.4211
+      ]
+    },
+    {
+      "question_id": "medqa_test_886",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 7,
+      "grounded_fraction": 0.8571,
+      "sentence_scores": [
+        0.6667,
+        0.75,
+        0.0,
+        0.9375,
+        0.6316,
+        0.8,
+        0.5556
+      ]
+    },
+    {
+      "question_id": "medqa_test_333",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.7647,
+        0.0,
+        0.8333,
+        1.0,
+        0.5882
+      ]
+    },
+    {
+      "question_id": "medqa_test_221",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 5,
+      "grounded_fraction": 0.4,
+      "sentence_scores": [
+        0.25,
+        0.8824,
+        0.7778,
+        0.3846,
+        0.4762
+      ]
+    },
+    {
+      "question_id": "medqa_test_825",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 7,
+      "grounded_fraction": 0.8571,
+      "sentence_scores": [
+        0.7586,
+        0.75,
+        0.8,
+        0.6923,
+        0.4444,
+        0.7647,
+        0.6
+      ]
+    },
+    {
+      "question_id": "medqa_test_170",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 12,
+      "grounded_fraction": 0.8333,
+      "sentence_scores": [
+        0.2857,
+        0.8571,
+        0.65,
+        0.6818,
+        0.5,
+        0.5556,
+        0.5833,
+        0.5455,
+        0.4545,
+        0.6,
+        1.0,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_1179",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 10,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.4286,
+        0.6818,
+        0.8,
+        0.2609,
+        0.5,
+        0.5714,
+        0.6667,
+        0.5,
+        0.5625,
+        0.7857
+      ]
+    },
+    {
+      "question_id": "medqa_test_925",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.3529,
+        0.5,
+        0.5556
+      ]
+    },
+    {
+      "question_id": "medqa_test_1093",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.2222,
+        0.6429,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_1262",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 9,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.1667,
+        0.8,
+        0.5,
+        0.7778,
+        1.0,
+        0.8,
+        0.4211,
+        0.1667,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_1217",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.6429,
+        0.3158,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_297",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 7,
+      "grounded_fraction": 0.8571,
+      "sentence_scores": [
+        0.55,
+        0.8,
+        0.7333,
+        0.5385,
+        0.4444,
+        0.7143,
+        0.6364
+      ]
+    },
+    {
+      "question_id": "medqa_test_816",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 2,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.4211,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_841",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 12,
+      "grounded_fraction": 0.9167,
+      "sentence_scores": [
+        0.2857,
+        0.5,
+        0.625,
+        0.72,
+        0.5,
+        0.7273,
+        1.0,
+        0.75,
+        1.0,
+        0.8333,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_1200",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 6,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.0,
+        0.1,
+        0.4615,
+        0.5455,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_1002",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 9,
+      "grounded_fraction": 0.4444,
+      "sentence_scores": [
+        0.2222,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.6,
+        0.5,
+        0.2222
+      ]
+    },
+    {
+      "question_id": "medqa_test_350",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 6,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.1429,
+        0.5333,
+        0.5,
+        0.75,
+        0.8571,
+        0.4286
+      ]
+    },
+    {
+      "question_id": "medqa_test_796",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 7,
+      "grounded_fraction": 0.1429,
+      "sentence_scores": [
+        0.2,
+        0.3125,
+        0.1818,
+        0.5,
+        0.0,
+        0.25,
+        0.1538
+      ]
+    },
+    {
+      "question_id": "medqa_test_199",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.2857,
+        0.7391,
+        1.0,
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_430",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 5,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5714,
+        0.6667,
+        0.75,
+        0.6154,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_494",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 5,
+      "grounded_fraction": 0.2,
+      "sentence_scores": [
+        0.0,
+        0.2222,
+        0.3077,
+        0.4286,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_631",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.2609,
+        0.5,
+        0.3077
+      ]
+    },
+    {
+      "question_id": "medqa_test_939",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.2857,
+        0.7083,
+        0.8462,
+        0.7143,
+        0.5385
+      ]
+    },
+    {
+      "question_id": "medqa_test_10",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 6,
+      "grounded_fraction": 0.1667,
+      "sentence_scores": [
+        0.3333,
+        0.4,
+        0.3158,
+        0.3636,
+        0.7,
+        0.1667
+      ]
+    },
+    {
+      "question_id": "medqa_test_147",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 8,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.6667,
+        0.4737,
+        0.75,
+        0.7143,
+        0.6,
+        0.5455,
+        0.4706,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_298",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 10,
+      "grounded_fraction": 0.4,
+      "sentence_scores": [
+        0.3,
+        0.1667,
+        0.4545,
+        0.4167,
+        0.5,
+        0.4444,
+        0.25,
+        0.5833,
+        0.875,
+        0.5833
+      ]
+    },
+    {
+      "question_id": "medqa_test_1031",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 8,
+      "grounded_fraction": 0.25,
+      "sentence_scores": [
+        0.2222,
+        0.4815,
+        0.4167,
+        0.4762,
+        0.4545,
+        0.6923,
+        0.5625,
+        0.4444
+      ]
+    },
+    {
+      "question_id": "medqa_test_622",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 6,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.1429,
+        0.3333,
+        0.5,
+        0.5333,
+        0.2,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_864",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5,
+        0.5,
+        0.8
+      ]
+    },
+    {
+      "question_id": "medqa_test_772",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 2,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.4118,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_254",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 4,
+      "grounded_fraction": 0.25,
+      "sentence_scores": [
+        0.25,
+        0.619,
+        0.4211,
+        0.4286
+      ]
+    },
+    {
+      "question_id": "medqa_test_777",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 15,
+      "grounded_fraction": 0.8667,
+      "sentence_scores": [
+        0.1429,
+        0.75,
+        0.5714,
+        0.7143,
+        0.5,
+        0.8,
+        0.5833,
+        1.0,
+        0.5556,
+        1.0,
+        0.75,
+        1.0,
+        0.4737,
+        0.7273,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_682",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 7,
+      "grounded_fraction": 0.8571,
+      "sentence_scores": [
+        1.0,
+        0.25,
+        0.75,
+        0.5882,
+        0.8571,
+        0.7692,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_1039",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.7143,
+        0.8333,
+        0.5714,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_306",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 9,
+      "grounded_fraction": 0.8889,
+      "sentence_scores": [
+        0.9048,
+        0.6875,
+        0.5263,
+        0.5185,
+        0.6,
+        0.5556,
+        1.0,
+        0.0,
+        0.7917
+      ]
+    },
+    {
+      "question_id": "medqa_test_915",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.5,
+        0.55,
+        0.6429,
+        0.3846
+      ]
+    },
+    {
+      "question_id": "medqa_test_1201",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 7,
+      "grounded_fraction": 0.1429,
+      "sentence_scores": [
+        0.1429,
+        0.25,
+        0.4545,
+        0.4444,
+        0.375,
+        0.6667,
+        0.375
+      ]
+    },
+    {
+      "question_id": "medqa_test_1167",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 2,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.1667,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_233",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.2174,
+        0.5,
+        0.0714
+      ]
+    },
+    {
+      "question_id": "medqa_test_1073",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6364,
+        1.0,
+        0.8889,
+        0.8235
+      ]
+    },
+    {
+      "question_id": "medqa_test_1181",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.1429,
+        0.7619,
+        0.7
+      ]
+    },
+    {
+      "question_id": "medqa_test_135",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 6,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.625,
+        0.7333,
+        0.875,
+        0.7,
+        0.8571,
+        0.8
+      ]
+    },
+    {
+      "question_id": "medqa_test_832",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 9,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.3333,
+        0.4545,
+        0.7333,
+        0.3333,
+        0.1667,
+        0.3,
+        0.5385,
+        0.5556,
+        0.4
+      ]
+    },
+    {
+      "question_id": "medqa_test_259",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.8261,
+        0.9444
+      ]
+    },
+    {
+      "question_id": "medqa_test_680",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 7,
+      "grounded_fraction": 0.8571,
+      "sentence_scores": [
+        0.6316,
+        0.875,
+        0.4545,
+        0.7857,
+        0.5,
+        0.5,
+        0.8
+      ]
+    },
+    {
+      "question_id": "medqa_test_1177",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 9,
+      "grounded_fraction": 0.5556,
+      "sentence_scores": [
+        0.5,
+        0.5,
+        0.4286,
+        0.0,
+        0.2222,
+        0.5556,
+        0.6667,
+        0.6667,
+        0.4615
+      ]
+    },
+    {
+      "question_id": "medqa_test_914",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 3,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.3462,
+        0.3889,
+        0.2727
+      ]
+    },
+    {
+      "question_id": "medqa_test_1257",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 7,
+      "grounded_fraction": 0.7143,
+      "sentence_scores": [
+        0.125,
+        0.6,
+        0.875,
+        0.8889,
+        0.8571,
+        0.4,
+        0.8
+      ]
+    },
+    {
+      "question_id": "medqa_test_597",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 2,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.4375,
+        0.2
+      ]
+    },
+    {
+      "question_id": "medqa_test_363",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 10,
+      "grounded_fraction": 0.9,
+      "sentence_scores": [
+        0.5,
+        0.3636,
+        0.6,
+        0.8125,
+        0.6471,
+        0.75,
+        0.6471,
+        0.6364,
+        0.6923,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_158",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 13,
+      "grounded_fraction": 0.6923,
+      "sentence_scores": [
+        0.0,
+        0.4,
+        0.6667,
+        0.75,
+        0.6667,
+        0.5,
+        0.5,
+        0.4,
+        0.6,
+        0.4615,
+        0.6,
+        0.7143,
+        0.6
+      ]
+    },
+    {
+      "question_id": "medqa_test_140",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 10,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.0,
+        0.619,
+        0.875,
+        0.75,
+        0.6364,
+        0.375,
+        0.4286,
+        0.2222,
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "question_id": "medqa_test_895",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5,
+        0.8889,
+        0.6
+      ]
+    },
+    {
+      "question_id": "medqa_test_331",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 12,
+      "grounded_fraction": 0.9167,
+      "sentence_scores": [
+        0.5455,
+        0.7222,
+        0.4545,
+        0.9333,
+        0.6667,
+        0.8182,
+        0.8125,
+        1.0,
+        0.7,
+        1.0,
+        0.7,
+        0.8333
+      ]
+    },
+    {
+      "question_id": "medqa_test_591",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.375,
+        0.9091,
+        0.7727
+      ]
+    },
+    {
+      "question_id": "medqa_test_739",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.4706,
+        0.375,
+        0.5714
+      ]
+    },
+    {
+      "question_id": "medqa_test_1103",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 10,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5,
+        0.7,
+        0.8462,
+        0.6667,
+        0.6,
+        0.9375,
+        0.6364,
+        0.8333,
+        0.6,
+        0.8182
+      ]
+    },
+    {
+      "question_id": "medqa_test_371",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 9,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.1429,
+        0.9444,
+        0.4,
+        0.8889,
+        0.6667,
+        0.6,
+        0.7778,
+        0.7778,
+        0.4286
+      ]
+    },
+    {
+      "question_id": "medqa_test_312",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 4,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.2857,
+        0.7778,
+        0.8947,
+        0.625
+      ]
+    },
+    {
+      "question_id": "medqa_test_65",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 12,
+      "grounded_fraction": 0.8333,
+      "sentence_scores": [
+        0.4444,
+        0.5833,
+        0.7,
+        0.4444,
+        0.75,
+        0.5714,
+        0.7,
+        0.5,
+        0.8889,
+        0.7333,
+        0.5556,
+        0.75
+      ]
+    },
+    {
+      "question_id": "medqa_test_572",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 7,
+      "grounded_fraction": 0.1429,
+      "sentence_scores": [
+        0.3333,
+        0.4,
+        0.1875,
+        0.4211,
+        0.4,
+        0.2222,
+        0.6364
+      ]
+    },
+    {
+      "question_id": "medqa_test_781",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.4348,
+        0.5,
+        0.2857
+      ]
+    },
+    {
+      "question_id": "medqa_test_32",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 14,
+      "grounded_fraction": 0.6429,
+      "sentence_scores": [
+        0.0,
+        0.4375,
+        1.0,
+        0.5,
+        1.0,
+        0.2,
+        0.5455,
+        0.7692,
+        0.6667,
+        0.6923,
+        0.5455,
+        0.4545,
+        0.1,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_783",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.2222,
+        0.4118,
+        0.1429
+      ]
+    },
+    {
+      "question_id": "medqa_test_743",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 11,
+      "grounded_fraction": 0.7273,
+      "sentence_scores": [
+        0.0,
+        0.7778,
+        0.3636,
+        0.5652,
+        0.72,
+        0.7143,
+        0.7368,
+        0.7083,
+        0.7222,
+        0.7222,
+        0.4
+      ]
+    },
+    {
+      "question_id": "medqa_test_290",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 7,
+      "grounded_fraction": 0.4286,
+      "sentence_scores": [
+        0.0,
+        0.3333,
+        0.0,
+        0.6667,
+        1.0,
+        0.0,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_96",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 7,
+      "grounded_fraction": 0.4286,
+      "sentence_scores": [
+        0.125,
+        0.9,
+        0.6429,
+        0.4583,
+        0.4615,
+        0.3043,
+        0.5833
+      ]
+    },
+    {
+      "question_id": "medqa_test_184",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 9,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        1.0,
+        0.4667,
+        0.5556,
+        0.5556,
+        0.8125,
+        0.5556,
+        0.2857,
+        0.4615,
+        0.6154
+      ]
+    },
+    {
+      "question_id": "medqa_test_788",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 1,
+      "grounded_fraction": 0.0,
+      "sentence_scores": [
+        0.1429
+      ]
+    },
+    {
+      "question_id": "medqa_test_970",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.25,
+        0.875,
+        0.6364,
+        0.6471,
+        0.5556
+      ]
+    },
+    {
+      "question_id": "medqa_test_163",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 6,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.2857,
+        0.5455,
+        0.9167,
+        0.5,
+        0.5833,
+        0.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_490",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 9,
+      "grounded_fraction": 0.1111,
+      "sentence_scores": [
+        0.4545,
+        0.375,
+        0.375,
+        0.4286,
+        0.5714,
+        0.3043,
+        0.1667,
+        0.3333,
+        0.2
+      ]
+    },
+    {
+      "question_id": "medqa_test_405",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 8,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.125,
+        0.2857,
+        0.7,
+        0.8,
+        0.5625,
+        0.6667,
+        0.6667,
+        0.8571
+      ]
+    },
+    {
+      "question_id": "medqa_test_156",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 4,
+      "grounded_fraction": 0.25,
+      "sentence_scores": [
+        0.1111,
+        0.4167,
+        0.0,
+        0.6
+      ]
+    },
+    {
+      "question_id": "medqa_test_650",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 2,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5,
+        0.7273
+      ]
+    },
+    {
+      "question_id": "medqa_test_770",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 9,
+      "grounded_fraction": 0.2222,
+      "sentence_scores": [
+        0.7273,
+        0.5,
+        0.2,
+        0.2727,
+        0.4286,
+        0.4,
+        0.4286,
+        0.4286,
+        0.375
+      ]
+    },
+    {
+      "question_id": "medqa_test_1003",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 7,
+      "grounded_fraction": 0.5714,
+      "sentence_scores": [
+        0.2222,
+        0.5,
+        0.5714,
+        0.4375,
+        0.5385,
+        0.4762,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_275",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 5,
+      "grounded_fraction": 0.4,
+      "sentence_scores": [
+        0.2857,
+        0.0,
+        0.75,
+        0.3,
+        0.6429
+      ]
+    },
+    {
+      "question_id": "medqa_test_394",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 12,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5714,
+        0.5,
+        0.6667,
+        0.7778,
+        0.7143,
+        0.8182,
+        0.8,
+        0.75,
+        0.6364,
+        0.5714,
+        0.7143,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_1258",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 3,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6,
+        0.5263,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_575",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 9,
+      "grounded_fraction": 0.4444,
+      "sentence_scores": [
+        0.4286,
+        0.4545,
+        0.4667,
+        0.75,
+        0.6,
+        0.2353,
+        0.8333,
+        0.4,
+        0.875
+      ]
+    },
+    {
+      "question_id": "medqa_test_614",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 5,
+      "grounded_fraction": 0.6,
+      "sentence_scores": [
+        0.3333,
+        0.8125,
+        0.5556,
+        0.4091,
+        0.6
+      ]
+    },
+    {
+      "question_id": "medqa_test_826",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 8,
+      "grounded_fraction": 0.375,
+      "sentence_scores": [
+        0.0,
+        0.5,
+        0.625,
+        0.4545,
+        0.4167,
+        0.8333,
+        0.4615,
+        0.2667
+      ]
+    },
+    {
+      "question_id": "medqa_test_277",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 7,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.5652,
+        0.8667,
+        0.6,
+        0.6667,
+        0.7333,
+        0.75,
+        0.7857
+      ]
+    },
+    {
+      "question_id": "medqa_test_327",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 6,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.4444,
+        1.0,
+        0.6,
+        0.6,
+        0.5,
+        0.25
+      ]
+    },
+    {
+      "question_id": "medqa_test_1186",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.4167,
+        0.6471,
+        0.6,
+        0.7,
+        0.9
+      ]
+    },
+    {
+      "question_id": "medqa_test_1052",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 10,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.25,
+        0.6667,
+        0.5385,
+        0.5385,
+        0.5556,
+        0.4286,
+        0.6667,
+        1.0,
+        0.5455,
+        0.5333
+      ]
+    },
+    {
+      "question_id": "medqa_test_624",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 4,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.68,
+        0.8333,
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_581",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 5,
+      "grounded_fraction": 0.6,
+      "sentence_scores": [
+        0.5625,
+        0.0,
+        0.5833,
+        0.8571,
+        0.2
+      ]
+    },
+    {
+      "question_id": "medqa_test_570",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 8,
+      "grounded_fraction": 0.625,
+      "sentence_scores": [
+        0.0,
+        0.55,
+        0.6,
+        0.0,
+        0.5385,
+        0.75,
+        0.6,
+        0.4
+      ]
+    },
+    {
+      "question_id": "medqa_test_922",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 4,
+      "grounded_fraction": 0.25,
+      "sentence_scores": [
+        0.3,
+        0.3636,
+        0.5,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_178",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 5,
+      "grounded_fraction": 0.6,
+      "sentence_scores": [
+        0.2857,
+        0.8889,
+        0.65,
+        0.4667,
+        0.8333
+      ]
+    },
+    {
+      "question_id": "medqa_test_427",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 8,
+      "grounded_fraction": 0.25,
+      "sentence_scores": [
+        0.3333,
+        0.5,
+        0.4286,
+        0.0,
+        0.0,
+        0.2857,
+        0.6667,
+        0.375
+      ]
+    },
+    {
+      "question_id": "medqa_test_964",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 6,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.1429,
+        1.0,
+        0.8333,
+        0.3824,
+        0.2353,
+        0.375
+      ]
+    },
+    {
+      "question_id": "medqa_test_377",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 8,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.3333,
+        0.5,
+        0.3623,
+        0.75,
+        0.2857,
+        0.5385,
+        0.4615,
+        0.5385
+      ]
+    },
+    {
+      "question_id": "medqa_test_381",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 5,
+      "grounded_fraction": 0.2,
+      "sentence_scores": [
+        0.6667,
+        0.3636,
+        0.3684,
+        0.375,
+        0.4615
+      ]
+    },
+    {
+      "question_id": "medqa_test_861",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 5,
+      "grounded_fraction": 0.8,
+      "sentence_scores": [
+        0.2857,
+        1.0,
+        0.8333,
+        0.9,
+        0.8333
+      ]
+    },
+    {
+      "question_id": "medqa_test_88",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 9,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.625,
+        0.6429,
+        0.7778,
+        0.6364,
+        0.9231,
+        0.8125,
+        0.8182,
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "question_id": "medqa_test_671",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.375,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_836",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 3,
+      "grounded_fraction": 0.3333,
+      "sentence_scores": [
+        0.1429,
+        0.4375,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_1266",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.0,
+        0.7778,
+        0.8571
+      ]
+    },
+    {
+      "question_id": "medqa_test_481",
+      "is_correct": false,
+      "predicted_letter": "B",
+      "num_sentences": 17,
+      "grounded_fraction": 0.8824,
+      "sentence_scores": [
+        0.125,
+        0.6667,
+        1.0,
+        1.0,
+        0.5,
+        0.5,
+        0.5833,
+        0.0,
+        0.625,
+        0.7333,
+        1.0,
+        0.6667,
+        0.5,
+        0.5667,
+        0.5172,
+        0.6429,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_943",
+      "is_correct": true,
+      "predicted_letter": "E",
+      "num_sentences": 4,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.3333,
+        0.8333,
+        0.2941,
+        0.8
+      ]
+    },
+    {
+      "question_id": "medqa_test_1006",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.3333,
+        0.6364,
+        0.7222
+      ]
+    },
+    {
+      "question_id": "medqa_test_285",
+      "is_correct": false,
+      "predicted_letter": "UNPARSED",
+      "num_sentences": 3,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.4615,
+        0.6364,
+        0.5333
+      ]
+    },
+    {
+      "question_id": "medqa_test_1205",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 6,
+      "grounded_fraction": 0.8333,
+      "sentence_scores": [
+        0.1429,
+        1.0,
+        0.7333,
+        0.6875,
+        0.8,
+        0.5769
+      ]
+    },
+    {
+      "question_id": "medqa_test_352",
+      "is_correct": false,
+      "predicted_letter": "E",
+      "num_sentences": 5,
+      "grounded_fraction": 0.6,
+      "sentence_scores": [
+        0.3333,
+        0.7692,
+        0.4545,
+        0.6471,
+        0.6667
+      ]
+    },
+    {
+      "question_id": "medqa_test_266",
+      "is_correct": false,
+      "predicted_letter": "D",
+      "num_sentences": 9,
+      "grounded_fraction": 0.7778,
+      "sentence_scores": [
+        0.1429,
+        0.7778,
+        0.625,
+        0.875,
+        0.9,
+        0.8824,
+        0.4783,
+        0.5,
+        0.5455
+      ]
+    },
+    {
+      "question_id": "medqa_test_59",
+      "is_correct": false,
+      "predicted_letter": "C",
+      "num_sentences": 6,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6957,
+        0.6667,
+        0.6364,
+        0.9333,
+        0.5882,
+        1.0
+      ]
+    },
+    {
+      "question_id": "medqa_test_979",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 5,
+      "grounded_fraction": 1.0,
+      "sentence_scores": [
+        0.6875,
+        0.7143,
+        0.6667,
+        0.6,
+        0.8182
+      ]
+    },
+    {
+      "question_id": "medqa_test_965",
+      "is_correct": true,
+      "predicted_letter": "D",
+      "num_sentences": 10,
+      "grounded_fraction": 0.3,
+      "sentence_scores": [
+        0.1429,
+        1.0,
+        0.2222,
+        0.5833,
+        0.0,
+        0.0,
+        0.2,
+        0.375,
+        0.6154,
+        0.25
+      ]
+    },
+    {
+      "question_id": "medqa_test_732",
+      "is_correct": true,
+      "predicted_letter": "B",
+      "num_sentences": 10,
+      "grounded_fraction": 0.7,
+      "sentence_scores": [
+        0.4615,
+        0.7333,
+        0.5217,
+        0.6154,
+        0.5,
+        0.4167,
+        0.6316,
+        0.6364,
+        0.5,
+        0.3333
+      ]
+    },
+    {
+      "question_id": "medqa_test_615",
+      "is_correct": true,
+      "predicted_letter": "A",
+      "num_sentences": 9,
+      "grounded_fraction": 0.6667,
+      "sentence_scores": [
+        0.1429,
+        0.3333,
+        0.9231,
+        1.0,
+        0.2222,
+        0.8,
+        0.7,
+        0.7,
+        0.7778
+      ]
+    },
+    {
+      "question_id": "medqa_test_1146",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 9,
+      "grounded_fraction": 0.4444,
+      "sentence_scores": [
+        0.6667,
+        0.9091,
+        0.4,
+        0.3333,
+        0.875,
+        0.4,
+        0.3077,
+        0.3846,
+        0.5
+      ]
+    },
+    {
+      "question_id": "medqa_test_573",
+      "is_correct": false,
+      "predicted_letter": "A",
+      "num_sentences": 8,
+      "grounded_fraction": 0.75,
+      "sentence_scores": [
+        0.3333,
+        0.4444,
+        0.6667,
+        0.9091,
+        0.6957,
+        1.0,
+        0.9412,
+        0.7143
+      ]
+    },
+    {
+      "question_id": "medqa_test_820",
+      "is_correct": true,
+      "predicted_letter": "C",
+      "num_sentences": 4,
+      "grounded_fraction": 0.5,
+      "sentence_scores": [
+        0.6552,
+        0.7143,
+        0.4615,
+        0.25
+      ]
+    }
+  ]
+}

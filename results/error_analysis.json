@@ -1,0 +1,33 @@
+{
+  "total_questions": 300,
+  "total_errors": 172,
+  "total_correct": 128,
+  "bucket_counts": {
+    "Parse failure": 61,
+    "Retrieval miss": 36,
+    "Model ignored context": 75,
+    "Other": 0
+  },
+  "bucket_percentages_of_errors": {
+    "Parse failure": 35.47,
+    "Retrieval miss": 20.93,
+    "Model ignored context": 43.6,
+    "Other": 0.0
+  },
+  "baseline_comparison": {
+    "rag_accuracy_percent": 42.67,
+    "rag_unparsed_percent": 20.33,
+    "baseline_accuracy_percent": 48.67,
+    "baseline_unparsed_percent": 0.67,
+    "difference_pp": -6.0,
+    "contingency_2x2": {
+      "both_correct": 95,
+      "only_rag_correct": 33,
+      "only_baseline_correct": 51,
+      "both_wrong": 121
+    }
+  },
+  "sample_seed": 42,
+  "num_sampled_error_examples": 10,
+  "error_examples_file": "C:\\Users\\shanm\\OneDrive\\Desktop\\Medical Question Answering\\results\\error_examples.md"
+}

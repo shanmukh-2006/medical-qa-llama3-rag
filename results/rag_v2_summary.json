@@ -1,0 +1,32 @@
+{
+  "dataset": "MedQA (USMLE)",
+  "test_questions_count": 300,
+  "ollama_model": "llama3:latest",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "k": 5,
+  "temperature": "default (Ollama default: 0.8 / identical to original runs)",
+  "rag_v2": {
+    "num_correct": 156,
+    "accuracy_percent": 52.0,
+    "num_unparsed": 0,
+    "unparsed_percent": 0.0,
+    "accuracy_on_parsed": 52.0,
+    "average_latency_seconds": 5.76
+  },
+  "original_rag": {
+    "num_correct": 128,
+    "accuracy_percent": 42.67,
+    "num_unparsed": 61,
+    "unparsed_percent": 20.33,
+    "accuracy_on_parsed": 53.56,
+    "average_latency_seconds": 17.42
+  },
+  "baseline": {
+    "num_correct": 146,
+    "accuracy_percent": 48.67,
+    "num_unparsed": 2,
+    "unparsed_percent": 0.67,
+    "average_latency_seconds": 10.89
+  },
+  "timestamp": "2026-10-25T21:59:40.666024"
+}
